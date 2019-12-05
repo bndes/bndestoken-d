@@ -1,0 +1,21 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "ethers": "^4.0.39",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "pdf-lib": "^1.2.1",
+    "request": "^2.88.0",
+    "sha3": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "josej <josej@bndes.gov.br>",
+  "license": "ISC"
+}

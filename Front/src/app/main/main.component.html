@@ -1,0 +1,77 @@
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+<script language="javascript">
+      
+</script>
+
+    <div class="row">
+      <div class="py-5 text-center col-md-12">
+        <img class="d-block mx-auto mb-4" src="assets/img/logo-bndescoin.png" alt="" width="72" height="72">
+        <h2>BNDESToken - D</h2>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4"> </div>
+        <div class="col-md-4"> <input type="text" name="address"  [(ngModel)]="address" size="69" ></div>
+        <div class="col-md-4"> </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12"><br> </div>    
+    </div>    
+
+    <div class="row">
+      <div class="col-md-4"> </div>
+      <div class="col-md-2">        
+        <button type="button" class="btn btn-success btn-lg btn-block" (click)="requestEth()">
+            Send Ether
+        </button>
+      </div>
+      <div class="col-md-2">
+        <button type="button" class="btn btn-success btn-lg btn-block" (click)="generateDoc()">
+            Generate Declaration
+        </button>    
+      </div>
+      <div class="col-md-4"> </div>
+    </div>      
+
+    <div class="row">
+        <div class="col-md-12"><br> </div>    
+    </div>  
+
+    <div class="row">
+      <div class="col-md-4"> </div>
+      <div class="col-md-2">        
+        <button type="button" class="btn btn-warning btn-lg btn-block" (click)="signDeclaration()">
+            Sign Declaration
+        </button>
+      </div>
+      <div class="col-md-2">
+       
+      </div>
+      <div class="col-md-4"> </div>
+    </div>          
+
+    <div class="row">
+        <div class="col-md-12"><br> </div>    
+    </div>  
+
+        <div class="row">
+      <div class="col-md-4"> </div>
+      <div class="col-md-2">        
+        <button type="button" class="btn btn-primary btn-lg btn-block" (click)="loginUnico()">
+            Entrar com GOV.BR.
+        </button>
+      </div>
+      <div class="col-md-2">
+        <button type="button" class="btn btn-primary btn-lg btn-block" (click)="loginUnicoRetorno()">
+            Retorno do GOV.BR.
+        </button>
+      </div>
+      <div class="col-md-4"> </div>
+    </div>  
