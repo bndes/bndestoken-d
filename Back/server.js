@@ -88,7 +88,7 @@ app.get('/loginunico',function( _req , _res ){
     var url = "https://sso.staging.acesso.gov.br/authorize?"
                   + "response_type="     + response_type
                   + "&client_id="        + client_id 
-                  + "&scope="            + scope 
+                  // + "&scope="            + scope 
                   // + "&redirect_uri="     + redirect_uri 
                   // + "&nonce="            + nonce  
                   // + "&state="            + state 
