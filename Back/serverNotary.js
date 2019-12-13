@@ -27,7 +27,7 @@ main();
         });
         
         // The address of Notary Contract
-        let contractAddress = "0x65A3742D4C58308a702688b85512dA659dfB6D5";
+        let contractAddress = "0x65A3742D4C58308a702688b85512dA659dfB6D5c";
 
         // We connect to the Contract using a Provider, so we will only
         // have read-only access to the Contract
@@ -49,11 +49,10 @@ main();
             
         var recordId = 0;
         await getRecordInfo(contract, recordId);
-return;                
         //contract.on("ValueChanged", 
           //  (author, oldValue, newValue, event) => processaValueChanged(author, oldValue, newValue, event));
 
-        await setValue(contractWithSigner, "olha que lindo 4");
+        await createRecord(contractWithSigner, 12345);
             
         //await sendETH(wallet);
 
