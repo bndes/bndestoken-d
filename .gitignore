@@ -5,6 +5,8 @@ package-lock.json
 
 /Back/config.json
 
+/Back-Blockchain/build
+
 #meus
 src/assets/bootstrap.min.js
 src/assets/truffle-contract.js

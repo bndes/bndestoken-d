@@ -1,23 +1,24 @@
 const ethers = require('ethers');
-const dataFromJsonFile = require('./xxx_UTC--2018-03-01T21-53-25.083436331Z--d636349f5d7e03037e0f224c9b1ac3ccf104f4a5');
+//const dataFromJsonFile = require('./xxx_UTC--2018-03-01T21-53-25.083436331Z--d636349f5d7e03037e0f224c9b1ac3ccf104f4a5');
 
 //TODO: passar para Type
 main();
 
     async function main() {
 
-        console.log("inicio serverblockchain.js");
+        console.log("inicio server Notary");
 
         // The Contract interface
         let abi = [
-            "event ValueChanged(address indexed author, string oldValue, string newValue)",
-            "constructor(string value)",
-            "function getValue() view returns (string value)",
-            "function setValue(string value)"
-        ];
+            "event NewRecordCreated(uint256 recordId)",
+            "constructor()",
+            "function createRecord(uint256 hash) external returns (uint256 value)",
+            "function getRecordInfo(uint256 recordId) external view returns (uint256 v1, uint256 v2)"
+            ];        
         
+
         // Connect to the network
-        //let provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:9545/");
+        //let provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:8545/");
         
         let provider = ethers.getDefaultProvider('rinkeby');
         
@@ -25,9 +26,9 @@ main();
             console.log("Current block number: " + blockNumber);
         });
         
-        // The address from the above deployment example
-        let contractAddress = "0x249AA32be34C862B921776B11e44788DECC09285";
-        
+        // The address of Notary Contract
+        let contractAddress = "0x65A3742D4C58308a702688b85512dA659dfB6D5";
+
         // We connect to the Contract using a Provider, so we will only
         // have read-only access to the Contract
         let contract = new ethers.Contract(contractAddress, abi, provider);
@@ -37,37 +38,38 @@ main();
         //Public key is 0x14791697260e4c9a71f18484c9f997b308e59325
 
         
-        console.log(dataFromJsonFile); 
+        //console.log(dataFromJsonFile); 
 
-/*
+
         let wallet = new ethers.Wallet(privateKey, provider);
         
         // Create a new instance of the Contract with a Signer, which allows
         // update methods
         let contractWithSigner = contract.connect(wallet);
             
-        await getValue(contract);
-        
-        contract.on("ValueChanged", 
-            (author, oldValue, newValue, event) => processaValueChanged(author, oldValue, newValue, event));
+        var recordId = 0;
+        await getRecordInfo(contract, recordId);
+return;                
+        //contract.on("ValueChanged", 
+          //  (author, oldValue, newValue, event) => processaValueChanged(author, oldValue, newValue, event));
 
         await setValue(contractWithSigner, "olha que lindo 4");
             
-        await sendETH(wallet);
-*/
+        //await sendETH(wallet);
+
     };
 
 
-    async function getValue(contract) {
+    async function getRecordInfo(contract, recordId) {
  
-        let value = await contract.getValue();
+        let value = await contract.getRecordInfo(recordId);
         console.log(value);
     }
     
 
-    async function setValue(contractWithSigner, value) {
+    async function createRecord(contractWithSigner, hash) {
 
-        let tx = await contractWithSigner.setValue(value);
+        let tx = await contractWithSigner.createRecord(hash);
                 
         // The operation is NOT complete yet; we must wait until it is mined
         await tx.wait()
@@ -75,6 +77,8 @@ main();
         console.log("transacao de escrita completou. Hash a seguir");
         console.log(tx.hash);                        
     }
+
+    /*
     
 
     async function sendETH(wallet) {
@@ -114,7 +118,7 @@ main();
 
         // The operation is NOT complete yet; we must wait until it is mined
         await tx.wait()
-*/
+* /
     } 
 
 
@@ -132,3 +136,4 @@ main();
         // See Event Emitter below for all properties on Event
         console.log("numero do bloco do evento=" + event.blockNumber);
     }
+*/
