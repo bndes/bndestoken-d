@@ -1,12 +1,18 @@
 const ethers = require('ethers');
-//const dataFromJsonFile = require('./xxx_UTC--2018-03-01T21-53-25.083436331Z--d636349f5d7e03037e0f224c9b1ac3ccf104f4a5');
+const express = require('express');
 
-//TODO: passar para Type
-main();
 
-    async function main() {
+var contract;
+var contractWithSigner;
+setup();
 
-        console.log("inicio server Notary");
+const app = express();
+const port = 8080; //FIXME
+app.listen(port, () => console.log('App listening on port ' + port + '!'))
+
+    async function setup() {
+
+        console.log("Notary setup");
 
         // The Contract interface
         let abi = [
@@ -31,7 +37,7 @@ main();
 
         // We connect to the Contract using a Provider, so we will only
         // have read-only access to the Contract
-        let contract = new ethers.Contract(contractAddress, abi, provider);
+        contract = new ethers.Contract(contractAddress, abi, provider);
         
         // A Signer from a private key
         let privateKey = '0x0123456789012345678901234567890123456789012345678901234567890123';
@@ -45,28 +51,24 @@ main();
         
         // Create a new instance of the Contract with a Signer, which allows
         // update methods
-        let contractWithSigner = contract.connect(wallet);
+        contractWithSigner = contract.connect(wallet);
             
-        var recordId = 0;
-        await getRecordInfo(contract, recordId);
-        //contract.on("ValueChanged", 
-          //  (author, oldValue, newValue, event) => processaValueChanged(author, oldValue, newValue, event));
-
-        await createRecord(contractWithSigner, 12345);
-            
-        //await sendETH(wallet);
+        //var recordId = 0;
+        //await getRecordInfo(recordId);        
+        //await createRecord(12345);            
 
     };
 
 
-    async function getRecordInfo(contract, recordId) {
+    async function getRecordInfo(recordId) {
  
         let value = await contract.getRecordInfo(recordId);
         console.log(value);
+        return value;
     }
     
 
-    async function createRecord(contractWithSigner, hash) {
+    async function createRecord(hash) {
 
         let tx = await contractWithSigner.createRecord(hash);
                 
@@ -76,6 +78,31 @@ main();
         console.log("transacao de escrita completou. Hash a seguir");
         console.log(tx.hash);                        
     }
+
+    app.get('/createrecord/:hash',function( _req , _res ){
+        const hash = _req.params.hash;
+        console.log('/createrecord/' + hash )
+                      
+        createRecord(hash).then((tx) => {
+            console.log("Created record!");
+        });
+
+        _res.send("The hash: " + hash + " was called. ");    
+        _res.end();    
+    });
+
+    app.get('/getrecord/:recordId',function( _req , _res ){
+        const recordId = _req.params.recordId;
+        console.log('/getrecord/' + recordId )
+                      
+        getRecordInfo(recordId).then((result) => {
+            console.log("Got record: " + result);
+            _res.send(result);    
+            _res.end();    
+        });
+        
+    });
+
 
     /*
     
