@@ -21,6 +21,7 @@ src/assets/web3.min.js
 /node_modules
 /Back/node_modules
 /Front/node_modules
+/Upgrade/node_modules
 
 # IDEs and editors
 /.idea
