@@ -1,15 +1,17 @@
+/*
 pragma solidity ^0.5.0;
 
 import "../appChangeManagementUpgrade/Storage.sol";
 import "../appChangeManagementUpgrade/UpdatableHandleable.sol";
 
-/*
+
     Links Legal Entity to Ethereum address.
     cnpj + idFinancialSupportAgreement => address
      
     mapping(uint => mapping(uint => address)) cnpjFSAddr;
 
 */
+/*
 contract ReverseLegalEntityClientMapping is UpdatableHandleable {
 
     Storage storageContract;
@@ -33,3 +35,4 @@ contract ReverseLegalEntityClientMapping is UpdatableHandleable {
 
 
 }
+*/
