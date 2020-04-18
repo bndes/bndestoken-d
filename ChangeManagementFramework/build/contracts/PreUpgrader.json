@@ -208,9 +208,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_changeManagementAddr\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_resolverAddr\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_storageContractAddr\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_legalEntityMappingAddr\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_bndesRegistryAddr\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[],\"name\":\"bndesRegistryInstance\",\"outputs\":[{\"internalType\":\"contract BNDESRegistry\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"changeManagementAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"changeManagementInstance\",\"outputs\":[{\"internalType\":\"contract ChangeManagement\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getBNDESRegistryAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getChangeManagementAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getLegalEntityMappingAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getResolverAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getStorageContractAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"legalEntityMappingInstance\",\"outputs\":[{\"internalType\":\"contract LegalEntityMapping\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"resolverInstance\",\"outputs\":[{\"internalType\":\"contract Resolver\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"storageContractInstance\",\"outputs\":[{\"internalType\":\"contract Storage\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"upgrade\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appUpgraders/PreUpgrader.sol\":\"PreUpgrader\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/ChangeManagement.sol\":{\"keccak256\":\"0xe29cf1b6699a2eabc3e86df356139232acf318470c74ac0bed7b72be6af43d57\",\"urls\":[\"bzz-raw://5afee8e3dbd05dfe56dc75f5908fd0339fdf02b0e00fff8419cfa207a4cdb171\",\"dweb:/ipfs/QmZhyQ6QhZ63Hb8U1n1HPtWNoPwU17ha3YmytW8Jb732S9\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Resolver.sol\":{\"keccak256\":\"0xdf2df65d510a53f445cff79b7e7e3151c79b5bc429078d81f53db9379edad422\",\"urls\":[\"bzz-raw://40c8cede778c303f9b41aa25799d7a08e0e1272cb267ade415a574f7f1826df0\",\"dweb:/ipfs/QmP1PB5mdkwFitTDoUSJjAFcytShpbGxVKsYU4qGmw3Saz\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Storage.sol\":{\"keccak256\":\"0x6bd005dc344aaac84dd9723d581c416faf80cb8a2aeaae29c2f4d5bba247fea9\",\"urls\":[\"bzz-raw://f020ee52525b5e6b32e74dbe106a8a71bf1c97d550f41c92fe9405d51d5628f1\",\"dweb:/ipfs/QmZJPxtzkuAk548urYbcqYBkHs8hq1obY73izfivQ6RBcr\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Updatable.sol\":{\"keccak256\":\"0xd58b78350ad80158448060dfc701e2bd16e1454c6622425cf462a42d46183236\",\"urls\":[\"bzz-raw://3c907eff7af927fe468706edd0bd301d044be2b09398d12128cb710ce2d34464\",\"dweb:/ipfs/QmVRn23zmLV2uxwUS1i7vwWjweL344cU6s7RV44tgCbUbA\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/UpdatableHandleable.sol\":{\"keccak256\":\"0xfe677b3ba754f50e9471fcda6da20a42ab4f2a4524774061184fb1ed20034ea6\",\"urls\":[\"bzz-raw://a1eb3da7896fb0d856d2cf941e1db48f231e9a5f7630dbb1534920e4e3081be2\",\"dweb:/ipfs/QmU64abZPoNi1XX6c5y8BnWBMYaQ4BhjfyGfiTcP9Bp5xU\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Upgrader.sol\":{\"keccak256\":\"0x5a62ed35078bda025f9034732c05c453d161b3bdd29155cdf1ba5f4934ca981e\",\"urls\":[\"bzz-raw://1aab6336498980a7f1a217d2313dc7812a71630dbafe56395eae55619d053bb0\",\"dweb:/ipfs/QmPBJPFSLrf1rkjxfz8mXionjs7LPZVfx3pziRGndzcrzE\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/UpgraderInfo.sol\":{\"keccak256\":\"0x84b73f79ae577717305f9f4a1e63ccaea7bc0f131717b40d492a335436bfed1c\",\"urls\":[\"bzz-raw://686d82cc7fe01bbc77af879c29856a75a12cbe2a3ced49437163cb32382f5118\",\"dweb:/ipfs/QmbJA8fcj3JVHTPk2htaVqGo97xemnUdzpApfvMJ7RJadm\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appTestUpgrade/BNDESRegistry.sol\":{\"keccak256\":\"0x5c208babbd6ffe3c29def0bdff61169280ff41c102aa39908adb015bd175fc86\",\"urls\":[\"bzz-raw://04dfc7fcbcb6bd0acd75596fc62e733ebfcfa739f05990216e2ffcd763100dd0\",\"dweb:/ipfs/QmQGQQvznCb9XVkexKU4NLs7X5htQH37bbw81PE2dktF9J\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appTestUpgrade/LegalEntityMapping.sol\":{\"keccak256\":\"0xe4809ec746390aee9d843299a2b3373a977112f75c0871ba257d919e9c25024e\",\"urls\":[\"bzz-raw://e2fa60b0d66d0e858a7b76f435abc9d6e86dad318b9f82cdb72e10d37536c9be\",\"dweb:/ipfs/QmYJVxYFwMB1ocL43pLgeoCTPuq6UWV5S5UjR8b5dGSD2V\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appUpgraders/PreUpgrader.sol\":{\"keccak256\":\"0x4ad0b2635c141346178d8e51e7aa97821b422ebffb0c01d1c025c6c031e02947\",\"urls\":[\"bzz-raw://e72088599c42d7839eee62100a5e96deacd1cf6478e2dd40015667619994a34e\",\"dweb:/ipfs/QmZ4mEA9WFou1Y4vQFAp4VqbMwFDhgXMrLr7ExDv7qEwFs\"]},\"openzeppelin-solidity/contracts/GSN/Context.sol\":{\"keccak256\":\"0x90a3995645af7562d84b9d69363ffa5ae7217714ab61e951bf7bc450f40e4061\",\"urls\":[\"bzz-raw://216ef9d6b614db4eb46970b4e84903f2534a45572dd30a79f0041f1a5830f436\",\"dweb:/ipfs/QmNPrJ4MWKUAWzKXpUqeyKRUfosaoANZAqXgvepdrCwZAG\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzz-raw://00a788c4631466c220b385bdd100c571d24b2deccd657615cfbcef6cadf669a4\",\"dweb:/ipfs/QmTEwDbjJNxmMNCDMqtuou3dyM8Wtp8Q9NFvn7SAVM7Jf3\"]},\"openzeppelin-solidity/contracts/access/roles/PauserRole.sol\":{\"keccak256\":\"0xd1b5c934bab36d753c22987ad98c7614cb50ebf641371a83c96f8138619d7c30\",\"urls\":[\"bzz-raw://69c4bb822caae3d1bfd38e81f03b6d618d4d83cbb8e9f8236d28e1c4fe1d0d81\",\"dweb:/ipfs/QmWamstbFhdySmocF2TSKYVLLZF24JG4aXMvHiRdWKv3RA\"]},\"openzeppelin-solidity/contracts/lifecycle/Pausable.sol\":{\"keccak256\":\"0xd3e5a49edfb74654d122962cc60b917d1c60461e669a7262fd7aba201fac1260\",\"urls\":[\"bzz-raw://0307a3cae4df037aee16fb0b0d94849cb4d9b20d7d7182c185f3efac6d2caec0\",\"dweb:/ipfs/QmezTANBfrJmCvxfmfyfcfFGtbcUEUtoJCjfxKnAePiNoE\"]},\"openzeppelin-solidity/contracts/ownership/Ownable.sol\":{\"keccak256\":\"0x6fb9d7889769d7cc161225f9ef7a90e468ba9788b253816f8d8b6894d3472c24\",\"urls\":[\"bzz-raw://cf4c00fc3c37cc5acf0c82ec6fd97bab67d72c2567fdc0ebf023d9c09b30a08e\",\"dweb:/ipfs/Qmb7TChG6DsEDX7LooJ4vmxot19f7VXX8S1zUGPeJTWbwZ\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50604051610c04380380610c04833981810160405260a081101561003357600080fd5b810190808051906020019092919080519060200190929190805190602001909291908051906020019092919080519060200190929190505050846000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555084600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555083600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555082600360006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555081600460006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555080600560006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050505050506109ff806102056000396000f3fe608060405234801561001057600080fd5b50600436106100b45760003560e01c80639b7c2618116100715780639b7c261814610275578063aa3a7ce3146102bf578063c3c3b45914610309578063c7b755af14610353578063d55ec6971461039d578063f9fb3ed4146103a7576100b4565b806309117d26146100b957806333822ba4146101035780633daf3f681461014d57806344e0d57314610197578063522fe4b7146101e15780635f59b8d61461022b575b600080fd5b6100c16103f1565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61010b61041b565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b610155610445565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61019f61046b565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6101e9610491565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6102336104bb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61027d6104e0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6102c761050a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b610311610530565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61035b610556565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6103a561057f565b005b6103af61095c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6000600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610624576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260488152602001806109836048913960600191505060405180910390fd5b600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663fb7d8a1e600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b1580156106e757600080fd5b505af11580156106fb573d6000803e3d6000fd5b505050506040513d602081101561071157600080fd5b810190808051906020019092919050505050600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663fb7d8a1e600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b1580156107e657600080fd5b505af11580156107fa573d6000803e3d6000fd5b505050506040513d602081101561081057600080fd5b810190808051906020019092919050505050600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663cf1a652f600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166040518263ffffffff1660e01b815260040180806020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281038252600d8152602001807f424e44455352656769737472790000000000000000000000000000000000000081525060200192505050602060405180830381600087803b15801561091e57600080fd5b505af1158015610932573d6000803e3d6000fd5b505050506040513d602081101561094857600080fd5b810190808051906020019092919050505050565b600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fe5072655570677261646572202d20546869732066756e6374696f6e2063616e206f6e6c7920626520657865637574656420627920746865204368616e67654d616e6167656d656e74a265627a7a723158204005db4ce14440f6e64eb3f9456a21949f739edef0ae14335bec74961dae04f964736f6c63430005100032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100b45760003560e01c80639b7c2618116100715780639b7c261814610275578063aa3a7ce3146102bf578063c3c3b45914610309578063c7b755af14610353578063d55ec6971461039d578063f9fb3ed4146103a7576100b4565b806309117d26146100b957806333822ba4146101035780633daf3f681461014d57806344e0d57314610197578063522fe4b7146101e15780635f59b8d61461022b575b600080fd5b6100c16103f1565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61010b61041b565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b610155610445565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61019f61046b565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6101e9610491565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6102336104bb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61027d6104e0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6102c761050a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b610311610530565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61035b610556565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6103a561057f565b005b6103af61095c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6000600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610624576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260488152602001806109836048913960600191505060405180910390fd5b600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663fb7d8a1e600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b1580156106e757600080fd5b505af11580156106fb573d6000803e3d6000fd5b505050506040513d602081101561071157600080fd5b810190808051906020019092919050505050600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663fb7d8a1e600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b1580156107e657600080fd5b505af11580156107fa573d6000803e3d6000fd5b505050506040513d602081101561081057600080fd5b810190808051906020019092919050505050600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663cf1a652f600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166040518263ffffffff1660e01b815260040180806020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281038252600d8152602001807f424e44455352656769737472790000000000000000000000000000000000000081525060200192505050602060405180830381600087803b15801561091e57600080fd5b505af1158015610932573d6000803e3d6000fd5b505050506040513d602081101561094857600080fd5b810190808051906020019092919050505050565b600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fe5072655570677261646572202d20546869732066756e6374696f6e2063616e206f6e6c7920626520657865637574656420627920746865204368616e67654d616e6167656d656e74a265627a7a723158204005db4ce14440f6e64eb3f9456a21949f739edef0ae14335bec74961dae04f964736f6c63430005100032",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_changeManagementAddr\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_resolverAddr\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_storageContractAddr\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_legalEntityMappingAddr\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_bndesRegistryAddr\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[],\"name\":\"bndesRegistryInstance\",\"outputs\":[{\"internalType\":\"contract BNDESRegistry\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"changeManagementAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"changeManagementInstance\",\"outputs\":[{\"internalType\":\"contract ChangeManagement\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getBNDESRegistryAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getChangeManagementAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getLegalEntityMappingAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getResolverAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getStorageContractAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"legalEntityMappingInstance\",\"outputs\":[{\"internalType\":\"contract LegalEntityMapping\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"resolverInstance\",\"outputs\":[{\"internalType\":\"contract Resolver\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"storageContractInstance\",\"outputs\":[{\"internalType\":\"contract Storage\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"upgrade\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appUpgraders/PreUpgrader.sol\":\"PreUpgrader\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/ChangeManagement.sol\":{\"keccak256\":\"0xcc71944249f89460a0c1eb7672b319e1995e819557b80ee57b5b7e395ee0eb26\",\"urls\":[\"bzz-raw://1d99072d6dbc4405239904de336ab7bc0545d9a7dadd282082d5d6e0efe832fc\",\"dweb:/ipfs/QmNh3UkpZyAF7RYZipLNJaBz7UjWKmmPJ3ewM8SU9PAkFh\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Resolver.sol\":{\"keccak256\":\"0xdf2df65d510a53f445cff79b7e7e3151c79b5bc429078d81f53db9379edad422\",\"urls\":[\"bzz-raw://40c8cede778c303f9b41aa25799d7a08e0e1272cb267ade415a574f7f1826df0\",\"dweb:/ipfs/QmP1PB5mdkwFitTDoUSJjAFcytShpbGxVKsYU4qGmw3Saz\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Storage.sol\":{\"keccak256\":\"0x6bd005dc344aaac84dd9723d581c416faf80cb8a2aeaae29c2f4d5bba247fea9\",\"urls\":[\"bzz-raw://f020ee52525b5e6b32e74dbe106a8a71bf1c97d550f41c92fe9405d51d5628f1\",\"dweb:/ipfs/QmZJPxtzkuAk548urYbcqYBkHs8hq1obY73izfivQ6RBcr\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Updatable.sol\":{\"keccak256\":\"0xd58b78350ad80158448060dfc701e2bd16e1454c6622425cf462a42d46183236\",\"urls\":[\"bzz-raw://3c907eff7af927fe468706edd0bd301d044be2b09398d12128cb710ce2d34464\",\"dweb:/ipfs/QmVRn23zmLV2uxwUS1i7vwWjweL344cU6s7RV44tgCbUbA\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/UpdatableHandleable.sol\":{\"keccak256\":\"0xfe677b3ba754f50e9471fcda6da20a42ab4f2a4524774061184fb1ed20034ea6\",\"urls\":[\"bzz-raw://a1eb3da7896fb0d856d2cf941e1db48f231e9a5f7630dbb1534920e4e3081be2\",\"dweb:/ipfs/QmU64abZPoNi1XX6c5y8BnWBMYaQ4BhjfyGfiTcP9Bp5xU\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Upgrader.sol\":{\"keccak256\":\"0x5a62ed35078bda025f9034732c05c453d161b3bdd29155cdf1ba5f4934ca981e\",\"urls\":[\"bzz-raw://1aab6336498980a7f1a217d2313dc7812a71630dbafe56395eae55619d053bb0\",\"dweb:/ipfs/QmPBJPFSLrf1rkjxfz8mXionjs7LPZVfx3pziRGndzcrzE\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/UpgraderInfo.sol\":{\"keccak256\":\"0x84b73f79ae577717305f9f4a1e63ccaea7bc0f131717b40d492a335436bfed1c\",\"urls\":[\"bzz-raw://686d82cc7fe01bbc77af879c29856a75a12cbe2a3ced49437163cb32382f5118\",\"dweb:/ipfs/QmbJA8fcj3JVHTPk2htaVqGo97xemnUdzpApfvMJ7RJadm\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appTestUpgrade/BNDESRegistry.sol\":{\"keccak256\":\"0x28b77f1d4811772e10717b6efa93de7ac535b5f798ed77628af67923a24814e4\",\"urls\":[\"bzz-raw://d84e5e1bea4cd852c93d0a5fb59cc544042e7cd7bd020dbc37cb15c132d4d2f0\",\"dweb:/ipfs/QmY3UUmRYXr3c2GNLiLULMmvKZV148jw2tFz2Jwv5vxPqf\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appTestUpgrade/LegalEntityMapping.sol\":{\"keccak256\":\"0xe4809ec746390aee9d843299a2b3373a977112f75c0871ba257d919e9c25024e\",\"urls\":[\"bzz-raw://e2fa60b0d66d0e858a7b76f435abc9d6e86dad318b9f82cdb72e10d37536c9be\",\"dweb:/ipfs/QmYJVxYFwMB1ocL43pLgeoCTPuq6UWV5S5UjR8b5dGSD2V\"]},\"/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appUpgraders/PreUpgrader.sol\":{\"keccak256\":\"0x4ad0b2635c141346178d8e51e7aa97821b422ebffb0c01d1c025c6c031e02947\",\"urls\":[\"bzz-raw://e72088599c42d7839eee62100a5e96deacd1cf6478e2dd40015667619994a34e\",\"dweb:/ipfs/QmZ4mEA9WFou1Y4vQFAp4VqbMwFDhgXMrLr7ExDv7qEwFs\"]},\"openzeppelin-solidity/contracts/GSN/Context.sol\":{\"keccak256\":\"0x90a3995645af7562d84b9d69363ffa5ae7217714ab61e951bf7bc450f40e4061\",\"urls\":[\"bzz-raw://216ef9d6b614db4eb46970b4e84903f2534a45572dd30a79f0041f1a5830f436\",\"dweb:/ipfs/QmNPrJ4MWKUAWzKXpUqeyKRUfosaoANZAqXgvepdrCwZAG\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzz-raw://00a788c4631466c220b385bdd100c571d24b2deccd657615cfbcef6cadf669a4\",\"dweb:/ipfs/QmTEwDbjJNxmMNCDMqtuou3dyM8Wtp8Q9NFvn7SAVM7Jf3\"]},\"openzeppelin-solidity/contracts/access/roles/PauserRole.sol\":{\"keccak256\":\"0xd1b5c934bab36d753c22987ad98c7614cb50ebf641371a83c96f8138619d7c30\",\"urls\":[\"bzz-raw://69c4bb822caae3d1bfd38e81f03b6d618d4d83cbb8e9f8236d28e1c4fe1d0d81\",\"dweb:/ipfs/QmWamstbFhdySmocF2TSKYVLLZF24JG4aXMvHiRdWKv3RA\"]},\"openzeppelin-solidity/contracts/lifecycle/Pausable.sol\":{\"keccak256\":\"0xd3e5a49edfb74654d122962cc60b917d1c60461e669a7262fd7aba201fac1260\",\"urls\":[\"bzz-raw://0307a3cae4df037aee16fb0b0d94849cb4d9b20d7d7182c185f3efac6d2caec0\",\"dweb:/ipfs/QmezTANBfrJmCvxfmfyfcfFGtbcUEUtoJCjfxKnAePiNoE\"]},\"openzeppelin-solidity/contracts/ownership/Ownable.sol\":{\"keccak256\":\"0x6fb9d7889769d7cc161225f9ef7a90e468ba9788b253816f8d8b6894d3472c24\",\"urls\":[\"bzz-raw://cf4c00fc3c37cc5acf0c82ec6fd97bab67d72c2567fdc0ebf023d9c09b30a08e\",\"dweb:/ipfs/Qmb7TChG6DsEDX7LooJ4vmxot19f7VXX8S1zUGPeJTWbwZ\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50604051610c04380380610c04833981810160405260a081101561003357600080fd5b810190808051906020019092919080519060200190929190805190602001909291908051906020019092919080519060200190929190505050846000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555084600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555083600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555082600360006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555081600460006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555080600560006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050505050506109ff806102056000396000f3fe608060405234801561001057600080fd5b50600436106100b45760003560e01c80639b7c2618116100715780639b7c261814610275578063aa3a7ce3146102bf578063c3c3b45914610309578063c7b755af14610353578063d55ec6971461039d578063f9fb3ed4146103a7576100b4565b806309117d26146100b957806333822ba4146101035780633daf3f681461014d57806344e0d57314610197578063522fe4b7146101e15780635f59b8d61461022b575b600080fd5b6100c16103f1565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61010b61041b565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b610155610445565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61019f61046b565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6101e9610491565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6102336104bb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61027d6104e0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6102c761050a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b610311610530565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61035b610556565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6103a561057f565b005b6103af61095c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6000600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610624576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260488152602001806109836048913960600191505060405180910390fd5b600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663fb7d8a1e600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b1580156106e757600080fd5b505af11580156106fb573d6000803e3d6000fd5b505050506040513d602081101561071157600080fd5b810190808051906020019092919050505050600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663fb7d8a1e600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b1580156107e657600080fd5b505af11580156107fa573d6000803e3d6000fd5b505050506040513d602081101561081057600080fd5b810190808051906020019092919050505050600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663cf1a652f600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166040518263ffffffff1660e01b815260040180806020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281038252600d8152602001807f424e44455352656769737472790000000000000000000000000000000000000081525060200192505050602060405180830381600087803b15801561091e57600080fd5b505af1158015610932573d6000803e3d6000fd5b505050506040513d602081101561094857600080fd5b810190808051906020019092919050505050565b600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fe5072655570677261646572202d20546869732066756e6374696f6e2063616e206f6e6c7920626520657865637574656420627920746865204368616e67654d616e6167656d656e74a265627a7a72315820fd22970f9dbeeefa91d8416b0fdb9792fbdef5d655d8dfca31e171d1212ecee464736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100b45760003560e01c80639b7c2618116100715780639b7c261814610275578063aa3a7ce3146102bf578063c3c3b45914610309578063c7b755af14610353578063d55ec6971461039d578063f9fb3ed4146103a7576100b4565b806309117d26146100b957806333822ba4146101035780633daf3f681461014d57806344e0d57314610197578063522fe4b7146101e15780635f59b8d61461022b575b600080fd5b6100c16103f1565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61010b61041b565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b610155610445565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61019f61046b565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6101e9610491565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6102336104bb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61027d6104e0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6102c761050a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b610311610530565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61035b610556565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6103a561057f565b005b6103af61095c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6000600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610624576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260488152602001806109836048913960600191505060405180910390fd5b600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663fb7d8a1e600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b1580156106e757600080fd5b505af11580156106fb573d6000803e3d6000fd5b505050506040513d602081101561071157600080fd5b810190808051906020019092919050505050600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663fb7d8a1e600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b1580156107e657600080fd5b505af11580156107fa573d6000803e3d6000fd5b505050506040513d602081101561081057600080fd5b810190808051906020019092919050505050600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663cf1a652f600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166040518263ffffffff1660e01b815260040180806020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281038252600d8152602001807f424e44455352656769737472790000000000000000000000000000000000000081525060200192505050602060405180830381600087803b15801561091e57600080fd5b505af1158015610932573d6000803e3d6000fd5b505050506040513d602081101561094857600080fd5b810190808051906020019092919050505050565b600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fe5072655570677261646572202d20546869732066756e6374696f6e2063616e206f6e6c7920626520657865637574656420627920746865204368616e67654d616e6167656d656e74a265627a7a72315820fd22970f9dbeeefa91d8416b0fdb9792fbdef5d655d8dfca31e171d1212ecee464736f6c63430005100032",
   "sourceMap": "292:2022:14:-;;;617:588;8:9:-1;5:2;;;30:1;27;20:12;5:2;617:588:14;;;;;;;;;;;;;;;13:3:-1;8;5:12;2:2;;;30:1;27;20:12;2:2;617:588:14;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;835:21;812:20;;:44;;;;;;;;;;;;;;;;;;910:21;866:24;;:66;;;;;;;;;;;;;;;;;;970:13;942:16;;:42;;;;;;;;;;;;;;;;;;1028:20;994:23;;:55;;;;;;;;;;;;;;;;;;1107:23;1059:26;;:72;;;;;;;;;;;;;;;;;;1179:18;1141:21;;:57;;;;;;;;;;;;;;;;;;617:588;;;;;292:2022;;;;;;",
   "deployedSourceMap": "292:2022:14:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;292:2022:14;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1825:106;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;2063:126;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;509:52;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;373:48;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;2195:116;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;332:35;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;1937:120;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;567:42;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;427:32;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;1710:109;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;1395:309;;;:::i;:::-;;465:38;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;1825:106;1873:7;1907:16;;;;;;;;;;;1892:32;;1825:106;:::o;2063:126::-;2121:7;2155:26;;;;;;;;;;;2140:42;;2063:126;:::o;509:52::-;;;;;;;;;;;;;:::o;373:48::-;;;;;;;;;;;;;:::o;2195:116::-;2248:7;2282:21;;;;;;;;;;;2267:37;;2195:116;:::o;332:35::-;;;;;;;;;;;;;:::o;1937:120::-;1992:7;2026:23;;;;;;;;;;;2011:39;;1937:120;:::o;567:42::-;;;;;;;;;;;;;:::o;427:32::-;;;;;;;;;;;;;:::o;1710:109::-;1766:7;1792:20;;;;;;;;;;;1785:27;;1710:109;:::o;1395:309::-;1274:20;;;;;;;;;;;1262:32;;:10;:32;;;1254:117;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1456:23;;;;;;;;;;;:34;;;1499:26;;;;;;;;;;;1456:71;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1456:71:14;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1456:71:14;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1456:71:14;;;;;;;;;;;;;;;;;1537:26;;;;;;;;;;;:37;;;1583:21;;;;;;;;;;;1537:69;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1537:69:14;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1537:69:14;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1537:69:14;;;;;;;;;;;;;;;;;1616:16;;;;;;;;;;;:31;;;1673:21;;;;;;;;;;;1616:80;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1616:80:14;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1616:80:14;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1616:80:14;;;;;;;;;;;;;;;;;1395:309::o;465:38::-;;;;;;;;;;;;;:::o",
   "source": "pragma solidity ^0.5.0;\n\nimport \"../appChangeManagementUpgrade/Upgrader.sol\";\nimport \"../appChangeManagementUpgrade/ChangeManagement.sol\";\nimport \"../appChangeManagementUpgrade/Resolver.sol\";\nimport \"../appChangeManagementUpgrade/Storage.sol\";\nimport \"../appTestUpgrade/BNDESRegistry.sol\";\n\n\ncontract PreUpgrader is Upgrader {\n\n    address public changeManagementAddr;\n    ChangeManagement public changeManagementInstance;\n    Resolver public resolverInstance;\n    Storage public storageContractInstance;\n    LegalEntityMapping public legalEntityMappingInstance;\n    BNDESRegistry public bndesRegistryInstance;\n\n\n    constructor(address _changeManagementAddr, address _resolverAddr, address _storageContractAddr,\n            address _legalEntityMappingAddr, address _bndesRegistryAddr) public {\n        \n        changeManagementAddr = _changeManagementAddr;\n        changeManagementInstance = ChangeManagement(_changeManagementAddr);\n        resolverInstance = Resolver(_resolverAddr);\n        storageContractInstance = Storage(_storageContractAddr);\n        legalEntityMappingInstance = LegalEntityMapping(_legalEntityMappingAddr);\n        bndesRegistryInstance = BNDESRegistry(_bndesRegistryAddr);\n    }\n\n\n    modifier onlyChangeManagement() {\n        require(msg.sender==changeManagementAddr, \"PreUpgrader - This function can only be executed by the ChangeManagement\");\n        _;\n    }\n\n    function upgrade () external onlyChangeManagement {\n\n        storageContractInstance.addHandler(address(legalEntityMappingInstance));\n        legalEntityMappingInstance.addHandler(address(bndesRegistryInstance));\n        resolverInstance.changeContract(\"BNDESRegistry\", address(bndesRegistryInstance));\n\n    }\n\n    function getChangeManagementAddr() public view returns (address) {\n        return changeManagementAddr;\n    }\n\n    function getResolverAddr() public view returns (address) {\n        return address(resolverInstance);\n    }\n\n    function getStorageContractAddr() public view returns (address) {\n        return address(storageContractInstance);\n    }\n\n    function getLegalEntityMappingAddr() public view returns (address) {\n        return address(legalEntityMappingInstance);\n    }\n\n    function getBNDESRegistryAddr() public view returns (address) {\n        return address(bndesRegistryInstance);\n    }\n\n}",
@@ -219,14 +219,14 @@
     "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appUpgraders/PreUpgrader.sol",
     "exportedSymbols": {
       "PreUpgrader": [
-        2661
+        2630
       ]
     },
-    "id": 2662,
+    "id": 2631,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2502,
+        "id": 2471,
         "literals": [
           "solidity",
           "^",
@@ -239,9 +239,9 @@
       {
         "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Upgrader.sol",
         "file": "../appChangeManagementUpgrade/Upgrader.sol",
-        "id": 2503,
+        "id": 2472,
         "nodeType": "ImportDirective",
-        "scope": 2662,
+        "scope": 2631,
         "sourceUnit": 1286,
         "src": "25:52:14",
         "symbolAliases": [],
@@ -250,9 +250,9 @@
       {
         "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/ChangeManagement.sol",
         "file": "../appChangeManagementUpgrade/ChangeManagement.sol",
-        "id": 2504,
+        "id": 2473,
         "nodeType": "ImportDirective",
-        "scope": 2662,
+        "scope": 2631,
         "sourceUnit": 686,
         "src": "78:60:14",
         "symbolAliases": [],
@@ -261,9 +261,9 @@
       {
         "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Resolver.sol",
         "file": "../appChangeManagementUpgrade/Resolver.sol",
-        "id": 2505,
+        "id": 2474,
         "nodeType": "ImportDirective",
-        "scope": 2662,
+        "scope": 2631,
         "sourceUnit": 875,
         "src": "139:52:14",
         "symbolAliases": [],
@@ -272,9 +272,9 @@
       {
         "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Storage.sol",
         "file": "../appChangeManagementUpgrade/Storage.sol",
-        "id": 2506,
+        "id": 2475,
         "nodeType": "ImportDirective",
-        "scope": 2662,
+        "scope": 2631,
         "sourceUnit": 1103,
         "src": "192:51:14",
         "symbolAliases": [],
@@ -283,10 +283,10 @@
       {
         "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appTestUpgrade/BNDESRegistry.sol",
         "file": "../appTestUpgrade/BNDESRegistry.sol",
-        "id": 2507,
+        "id": 2476,
         "nodeType": "ImportDirective",
-        "scope": 2662,
-        "sourceUnit": 2003,
+        "scope": 2631,
+        "sourceUnit": 1972,
         "src": "244:45:14",
         "symbolAliases": [],
         "unitAlias": ""
@@ -297,7 +297,7 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 2508,
+              "id": 2477,
               "name": "Upgrader",
               "nodeType": "UserDefinedTypeName",
               "referencedDeclaration": 1285,
@@ -307,7 +307,7 @@
                 "typeString": "contract Upgrader"
               }
             },
-            "id": 2509,
+            "id": 2478,
             "nodeType": "InheritanceSpecifier",
             "src": "316:8:14"
           }
@@ -318,9 +318,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2661,
+        "id": 2630,
         "linearizedBaseContracts": [
-          2661,
+          2630,
           1285
         ],
         "name": "PreUpgrader",
@@ -328,10 +328,10 @@
         "nodes": [
           {
             "constant": false,
-            "id": 2511,
+            "id": 2480,
             "name": "changeManagementAddr",
             "nodeType": "VariableDeclaration",
-            "scope": 2661,
+            "scope": 2630,
             "src": "332:35:14",
             "stateVariable": true,
             "storageLocation": "default",
@@ -340,7 +340,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 2510,
+              "id": 2479,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "332:7:14",
@@ -355,10 +355,10 @@
           },
           {
             "constant": false,
-            "id": 2513,
+            "id": 2482,
             "name": "changeManagementInstance",
             "nodeType": "VariableDeclaration",
-            "scope": 2661,
+            "scope": 2630,
             "src": "373:48:14",
             "stateVariable": true,
             "storageLocation": "default",
@@ -368,7 +368,7 @@
             },
             "typeName": {
               "contractScope": null,
-              "id": 2512,
+              "id": 2481,
               "name": "ChangeManagement",
               "nodeType": "UserDefinedTypeName",
               "referencedDeclaration": 685,
@@ -383,10 +383,10 @@
           },
           {
             "constant": false,
-            "id": 2515,
+            "id": 2484,
             "name": "resolverInstance",
             "nodeType": "VariableDeclaration",
-            "scope": 2661,
+            "scope": 2630,
             "src": "427:32:14",
             "stateVariable": true,
             "storageLocation": "default",
@@ -396,7 +396,7 @@
             },
             "typeName": {
               "contractScope": null,
-              "id": 2514,
+              "id": 2483,
               "name": "Resolver",
               "nodeType": "UserDefinedTypeName",
               "referencedDeclaration": 874,
@@ -411,10 +411,10 @@
           },
           {
             "constant": false,
-            "id": 2517,
+            "id": 2486,
             "name": "storageContractInstance",
             "nodeType": "VariableDeclaration",
-            "scope": 2661,
+            "scope": 2630,
             "src": "465:38:14",
             "stateVariable": true,
             "storageLocation": "default",
@@ -424,7 +424,7 @@
             },
             "typeName": {
               "contractScope": null,
-              "id": 2516,
+              "id": 2485,
               "name": "Storage",
               "nodeType": "UserDefinedTypeName",
               "referencedDeclaration": 1102,
@@ -439,26 +439,26 @@
           },
           {
             "constant": false,
-            "id": 2519,
+            "id": 2488,
             "name": "legalEntityMappingInstance",
             "nodeType": "VariableDeclaration",
-            "scope": 2661,
+            "scope": 2630,
             "src": "509:52:14",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+              "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
               "typeString": "contract LegalEntityMapping"
             },
             "typeName": {
               "contractScope": null,
-              "id": 2518,
+              "id": 2487,
               "name": "LegalEntityMapping",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2499,
+              "referencedDeclaration": 2468,
               "src": "509:18:14",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                 "typeString": "contract LegalEntityMapping"
               }
             },
@@ -467,26 +467,26 @@
           },
           {
             "constant": false,
-            "id": 2521,
+            "id": 2490,
             "name": "bndesRegistryInstance",
             "nodeType": "VariableDeclaration",
-            "scope": 2661,
+            "scope": 2630,
             "src": "567:42:14",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+              "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
               "typeString": "contract BNDESRegistry"
             },
             "typeName": {
               "contractScope": null,
-              "id": 2520,
+              "id": 2489,
               "name": "BNDESRegistry",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2002,
+              "referencedDeclaration": 1971,
               "src": "567:13:14",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                 "typeString": "contract BNDESRegistry"
               }
             },
@@ -495,25 +495,25 @@
           },
           {
             "body": {
-              "id": 2568,
+              "id": 2537,
               "nodeType": "Block",
               "src": "793:412:14",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2536,
+                    "id": 2505,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2534,
+                      "id": 2503,
                       "name": "changeManagementAddr",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2511,
+                      "referencedDeclaration": 2480,
                       "src": "812:20:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -524,11 +524,11 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 2535,
+                      "id": 2504,
                       "name": "_changeManagementAddr",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2523,
+                      "referencedDeclaration": 2492,
                       "src": "835:21:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -541,25 +541,25 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 2537,
+                  "id": 2506,
                   "nodeType": "ExpressionStatement",
                   "src": "812:44:14"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2542,
+                    "id": 2511,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2538,
+                      "id": 2507,
                       "name": "changeManagementInstance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2513,
+                      "referencedDeclaration": 2482,
                       "src": "866:24:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_contract$_ChangeManagement_$685",
@@ -573,11 +573,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 2540,
+                          "id": 2509,
                           "name": "_changeManagementAddr",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2523,
+                          "referencedDeclaration": 2492,
                           "src": "910:21:14",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -592,7 +592,7 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 2539,
+                        "id": 2508,
                         "name": "ChangeManagement",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -603,7 +603,7 @@
                           "typeString": "type(contract ChangeManagement)"
                         }
                       },
-                      "id": 2541,
+                      "id": 2510,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -623,25 +623,25 @@
                       "typeString": "contract ChangeManagement"
                     }
                   },
-                  "id": 2543,
+                  "id": 2512,
                   "nodeType": "ExpressionStatement",
                   "src": "866:66:14"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2548,
+                    "id": 2517,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2544,
+                      "id": 2513,
                       "name": "resolverInstance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2515,
+                      "referencedDeclaration": 2484,
                       "src": "942:16:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_contract$_Resolver_$874",
@@ -655,11 +655,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 2546,
+                          "id": 2515,
                           "name": "_resolverAddr",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2525,
+                          "referencedDeclaration": 2494,
                           "src": "970:13:14",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -674,7 +674,7 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 2545,
+                        "id": 2514,
                         "name": "Resolver",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -685,7 +685,7 @@
                           "typeString": "type(contract Resolver)"
                         }
                       },
-                      "id": 2547,
+                      "id": 2516,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -705,25 +705,25 @@
                       "typeString": "contract Resolver"
                     }
                   },
-                  "id": 2549,
+                  "id": 2518,
                   "nodeType": "ExpressionStatement",
                   "src": "942:42:14"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2554,
+                    "id": 2523,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2550,
+                      "id": 2519,
                       "name": "storageContractInstance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2517,
+                      "referencedDeclaration": 2486,
                       "src": "994:23:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_contract$_Storage_$1102",
@@ -737,11 +737,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 2552,
+                          "id": 2521,
                           "name": "_storageContractAddr",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2527,
+                          "referencedDeclaration": 2496,
                           "src": "1028:20:14",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -756,7 +756,7 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 2551,
+                        "id": 2520,
                         "name": "Storage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -767,7 +767,7 @@
                           "typeString": "type(contract Storage)"
                         }
                       },
-                      "id": 2553,
+                      "id": 2522,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -787,28 +787,28 @@
                       "typeString": "contract Storage"
                     }
                   },
-                  "id": 2555,
+                  "id": 2524,
                   "nodeType": "ExpressionStatement",
                   "src": "994:55:14"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2560,
+                    "id": 2529,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2556,
+                      "id": 2525,
                       "name": "legalEntityMappingInstance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2519,
+                      "referencedDeclaration": 2488,
                       "src": "1059:26:14",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                        "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                         "typeString": "contract LegalEntityMapping"
                       }
                     },
@@ -819,11 +819,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 2558,
+                          "id": 2527,
                           "name": "_legalEntityMappingAddr",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2529,
+                          "referencedDeclaration": 2498,
                           "src": "1107:23:14",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -838,18 +838,18 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 2557,
+                        "id": 2526,
                         "name": "LegalEntityMapping",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2499,
+                        "referencedDeclaration": 2468,
                         "src": "1088:18:14",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_LegalEntityMapping_$2499_$",
+                          "typeIdentifier": "t_type$_t_contract$_LegalEntityMapping_$2468_$",
                           "typeString": "type(contract LegalEntityMapping)"
                         }
                       },
-                      "id": 2559,
+                      "id": 2528,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -859,38 +859,38 @@
                       "nodeType": "FunctionCall",
                       "src": "1088:43:14",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                        "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                         "typeString": "contract LegalEntityMapping"
                       }
                     },
                     "src": "1059:72:14",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                      "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                       "typeString": "contract LegalEntityMapping"
                     }
                   },
-                  "id": 2561,
+                  "id": 2530,
                   "nodeType": "ExpressionStatement",
                   "src": "1059:72:14"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2566,
+                    "id": 2535,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2562,
+                      "id": 2531,
                       "name": "bndesRegistryInstance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2521,
+                      "referencedDeclaration": 2490,
                       "src": "1141:21:14",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                        "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                         "typeString": "contract BNDESRegistry"
                       }
                     },
@@ -901,11 +901,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 2564,
+                          "id": 2533,
                           "name": "_bndesRegistryAddr",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2531,
+                          "referencedDeclaration": 2500,
                           "src": "1179:18:14",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -920,18 +920,18 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 2563,
+                        "id": 2532,
                         "name": "BNDESRegistry",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2002,
+                        "referencedDeclaration": 1971,
                         "src": "1165:13:14",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_BNDESRegistry_$2002_$",
+                          "typeIdentifier": "t_type$_t_contract$_BNDESRegistry_$1971_$",
                           "typeString": "type(contract BNDESRegistry)"
                         }
                       },
-                      "id": 2565,
+                      "id": 2534,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -941,39 +941,39 @@
                       "nodeType": "FunctionCall",
                       "src": "1165:33:14",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                        "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                         "typeString": "contract BNDESRegistry"
                       }
                     },
                     "src": "1141:57:14",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                      "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                       "typeString": "contract BNDESRegistry"
                     }
                   },
-                  "id": 2567,
+                  "id": 2536,
                   "nodeType": "ExpressionStatement",
                   "src": "1141:57:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2569,
+            "id": 2538,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2532,
+              "id": 2501,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2523,
+                  "id": 2492,
                   "name": "_changeManagementAddr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2569,
+                  "scope": 2538,
                   "src": "629:29:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -982,7 +982,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2522,
+                    "id": 2491,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "629:7:14",
@@ -997,10 +997,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 2525,
+                  "id": 2494,
                   "name": "_resolverAddr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2569,
+                  "scope": 2538,
                   "src": "660:21:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1009,7 +1009,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2524,
+                    "id": 2493,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "660:7:14",
@@ -1024,10 +1024,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 2527,
+                  "id": 2496,
                   "name": "_storageContractAddr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2569,
+                  "scope": 2538,
                   "src": "683:28:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1036,7 +1036,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2526,
+                    "id": 2495,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "683:7:14",
@@ -1051,10 +1051,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 2529,
+                  "id": 2498,
                   "name": "_legalEntityMappingAddr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2569,
+                  "scope": 2538,
                   "src": "725:31:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1063,7 +1063,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2528,
+                    "id": 2497,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "725:7:14",
@@ -1078,10 +1078,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 2531,
+                  "id": 2500,
                   "name": "_bndesRegistryAddr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2569,
+                  "scope": 2538,
                   "src": "758:26:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1090,7 +1090,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2530,
+                    "id": 2499,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "758:7:14",
@@ -1107,12 +1107,12 @@
               "src": "628:157:14"
             },
             "returnParameters": {
-              "id": 2533,
+              "id": 2502,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "793:0:14"
             },
-            "scope": 2661,
+            "scope": 2630,
             "src": "617:588:14",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1120,7 +1120,7 @@
           },
           {
             "body": {
-              "id": 2580,
+              "id": 2549,
               "nodeType": "Block",
               "src": "1244:145:14",
               "statements": [
@@ -1134,7 +1134,7 @@
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         },
-                        "id": 2575,
+                        "id": 2544,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1143,18 +1143,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 2572,
+                            "id": 2541,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 3458,
+                            "referencedDeclaration": 3428,
                             "src": "1262:3:14",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 2573,
+                          "id": 2542,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1172,11 +1172,11 @@
                         "operator": "==",
                         "rightExpression": {
                           "argumentTypes": null,
-                          "id": 2574,
+                          "id": 2543,
                           "name": "changeManagementAddr",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2511,
+                          "referencedDeclaration": 2480,
                           "src": "1274:20:14",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -1192,7 +1192,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "5072655570677261646572202d20546869732066756e6374696f6e2063616e206f6e6c7920626520657865637574656420627920746865204368616e67654d616e6167656d656e74",
-                        "id": 2576,
+                        "id": 2545,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -1219,21 +1219,21 @@
                           "typeString": "literal_string \"PreUpgrader - This function can only be executed by the ChangeManagement\""
                         }
                       ],
-                      "id": 2571,
+                      "id": 2540,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        3461,
-                        3462
+                        3431,
+                        3432
                       ],
-                      "referencedDeclaration": 3462,
+                      "referencedDeclaration": 3432,
                       "src": "1254:7:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 2577,
+                    "id": 2546,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1247,23 +1247,23 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2578,
+                  "id": 2547,
                   "nodeType": "ExpressionStatement",
                   "src": "1254:117:14"
                 },
                 {
-                  "id": 2579,
+                  "id": 2548,
                   "nodeType": "PlaceholderStatement",
                   "src": "1381:1:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2581,
+            "id": 2550,
             "name": "onlyChangeManagement",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 2570,
+              "id": 2539,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1241:2:14"
@@ -1273,7 +1273,7 @@
           },
           {
             "body": {
-              "id": 2611,
+              "id": 2580,
               "nodeType": "Block",
               "src": "1445:259:14",
               "statements": [
@@ -1286,14 +1286,14 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 2590,
+                            "id": 2559,
                             "name": "legalEntityMappingInstance",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2519,
+                            "referencedDeclaration": 2488,
                             "src": "1499:26:14",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                              "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                               "typeString": "contract LegalEntityMapping"
                             }
                           }
@@ -1301,11 +1301,11 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                              "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                               "typeString": "contract LegalEntityMapping"
                             }
                           ],
-                          "id": 2589,
+                          "id": 2558,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -1318,7 +1318,7 @@
                           },
                           "typeName": "address"
                         },
-                        "id": 2591,
+                        "id": 2560,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1342,18 +1342,18 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2586,
+                        "id": 2555,
                         "name": "storageContractInstance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2517,
+                        "referencedDeclaration": 2486,
                         "src": "1456:23:14",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Storage_$1102",
                           "typeString": "contract Storage"
                         }
                       },
-                      "id": 2588,
+                      "id": 2557,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1367,7 +1367,7 @@
                         "typeString": "function (address) external returns (bool)"
                       }
                     },
-                    "id": 2592,
+                    "id": 2561,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1381,7 +1381,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 2593,
+                  "id": 2562,
                   "nodeType": "ExpressionStatement",
                   "src": "1456:71:14"
                 },
@@ -1394,14 +1394,14 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 2598,
+                            "id": 2567,
                             "name": "bndesRegistryInstance",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2521,
+                            "referencedDeclaration": 2490,
                             "src": "1583:21:14",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                              "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                               "typeString": "contract BNDESRegistry"
                             }
                           }
@@ -1409,11 +1409,11 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                              "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                               "typeString": "contract BNDESRegistry"
                             }
                           ],
-                          "id": 2597,
+                          "id": 2566,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -1426,7 +1426,7 @@
                           },
                           "typeName": "address"
                         },
-                        "id": 2599,
+                        "id": 2568,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1450,18 +1450,18 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2594,
+                        "id": 2563,
                         "name": "legalEntityMappingInstance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2519,
+                        "referencedDeclaration": 2488,
                         "src": "1537:26:14",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                          "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                           "typeString": "contract LegalEntityMapping"
                         }
                       },
-                      "id": 2596,
+                      "id": 2565,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1475,7 +1475,7 @@
                         "typeString": "function (address) external returns (bool)"
                       }
                     },
-                    "id": 2600,
+                    "id": 2569,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1489,7 +1489,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 2601,
+                  "id": 2570,
                   "nodeType": "ExpressionStatement",
                   "src": "1537:69:14"
                 },
@@ -1500,7 +1500,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "424e4445535265676973747279",
-                        "id": 2605,
+                        "id": 2574,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -1520,14 +1520,14 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 2607,
+                            "id": 2576,
                             "name": "bndesRegistryInstance",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2521,
+                            "referencedDeclaration": 2490,
                             "src": "1673:21:14",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                              "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                               "typeString": "contract BNDESRegistry"
                             }
                           }
@@ -1535,11 +1535,11 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                              "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                               "typeString": "contract BNDESRegistry"
                             }
                           ],
-                          "id": 2606,
+                          "id": 2575,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -1552,7 +1552,7 @@
                           },
                           "typeName": "address"
                         },
-                        "id": 2608,
+                        "id": 2577,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1580,18 +1580,18 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2602,
+                        "id": 2571,
                         "name": "resolverInstance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2515,
+                        "referencedDeclaration": 2484,
                         "src": "1616:16:14",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Resolver_$874",
                           "typeString": "contract Resolver"
                         }
                       },
-                      "id": 2604,
+                      "id": 2573,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1605,7 +1605,7 @@
                         "typeString": "function (string memory,address) external returns (bool)"
                       }
                     },
-                    "id": 2609,
+                    "id": 2578,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1619,27 +1619,27 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 2610,
+                  "id": 2579,
                   "nodeType": "ExpressionStatement",
                   "src": "1616:80:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2612,
+            "id": 2581,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
-                "id": 2584,
+                "id": 2553,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2583,
+                  "id": 2552,
                   "name": "onlyChangeManagement",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2581,
+                  "referencedDeclaration": 2550,
                   "src": "1424:20:14",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -1653,18 +1653,18 @@
             "name": "upgrade",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2582,
+              "id": 2551,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1412:2:14"
             },
             "returnParameters": {
-              "id": 2585,
+              "id": 2554,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1445:0:14"
             },
-            "scope": 2661,
+            "scope": 2630,
             "src": "1395:309:14",
             "stateMutability": "nonpayable",
             "superFunction": 1284,
@@ -1672,54 +1672,54 @@
           },
           {
             "body": {
-              "id": 2619,
+              "id": 2588,
               "nodeType": "Block",
               "src": "1775:44:14",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2617,
+                    "id": 2586,
                     "name": "changeManagementAddr",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 2511,
+                    "referencedDeclaration": 2480,
                     "src": "1792:20:14",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 2616,
-                  "id": 2618,
+                  "functionReturnParameters": 2585,
+                  "id": 2587,
                   "nodeType": "Return",
                   "src": "1785:27:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2620,
+            "id": 2589,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getChangeManagementAddr",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2613,
+              "id": 2582,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1742:2:14"
             },
             "returnParameters": {
-              "id": 2616,
+              "id": 2585,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2615,
+                  "id": 2584,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2620,
+                  "scope": 2589,
                   "src": "1766:7:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1728,7 +1728,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2614,
+                    "id": 2583,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1766:7:14",
@@ -1744,7 +1744,7 @@
               ],
               "src": "1765:9:14"
             },
-            "scope": 2661,
+            "scope": 2630,
             "src": "1710:109:14",
             "stateMutability": "view",
             "superFunction": null,
@@ -1752,7 +1752,7 @@
           },
           {
             "body": {
-              "id": 2629,
+              "id": 2598,
               "nodeType": "Block",
               "src": "1882:49:14",
               "statements": [
@@ -1762,11 +1762,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2626,
+                        "id": 2595,
                         "name": "resolverInstance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2515,
+                        "referencedDeclaration": 2484,
                         "src": "1907:16:14",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Resolver_$874",
@@ -1781,7 +1781,7 @@
                           "typeString": "contract Resolver"
                         }
                       ],
-                      "id": 2625,
+                      "id": 2594,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -1794,7 +1794,7 @@
                       },
                       "typeName": "address"
                     },
-                    "id": 2627,
+                    "id": 2596,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1808,36 +1808,36 @@
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 2624,
-                  "id": 2628,
+                  "functionReturnParameters": 2593,
+                  "id": 2597,
                   "nodeType": "Return",
                   "src": "1892:32:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2630,
+            "id": 2599,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getResolverAddr",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2621,
+              "id": 2590,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1849:2:14"
             },
             "returnParameters": {
-              "id": 2624,
+              "id": 2593,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2623,
+                  "id": 2592,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2630,
+                  "scope": 2599,
                   "src": "1873:7:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1846,7 +1846,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2622,
+                    "id": 2591,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1873:7:14",
@@ -1862,7 +1862,7 @@
               ],
               "src": "1872:9:14"
             },
-            "scope": 2661,
+            "scope": 2630,
             "src": "1825:106:14",
             "stateMutability": "view",
             "superFunction": null,
@@ -1870,7 +1870,7 @@
           },
           {
             "body": {
-              "id": 2639,
+              "id": 2608,
               "nodeType": "Block",
               "src": "2001:56:14",
               "statements": [
@@ -1880,11 +1880,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2636,
+                        "id": 2605,
                         "name": "storageContractInstance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2517,
+                        "referencedDeclaration": 2486,
                         "src": "2026:23:14",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Storage_$1102",
@@ -1899,7 +1899,7 @@
                           "typeString": "contract Storage"
                         }
                       ],
-                      "id": 2635,
+                      "id": 2604,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -1912,7 +1912,7 @@
                       },
                       "typeName": "address"
                     },
-                    "id": 2637,
+                    "id": 2606,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1926,36 +1926,36 @@
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 2634,
-                  "id": 2638,
+                  "functionReturnParameters": 2603,
+                  "id": 2607,
                   "nodeType": "Return",
                   "src": "2011:39:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2640,
+            "id": 2609,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getStorageContractAddr",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2631,
+              "id": 2600,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1968:2:14"
             },
             "returnParameters": {
-              "id": 2634,
+              "id": 2603,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2633,
+                  "id": 2602,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2640,
+                  "scope": 2609,
                   "src": "1992:7:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1964,7 +1964,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2632,
+                    "id": 2601,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1992:7:14",
@@ -1980,7 +1980,7 @@
               ],
               "src": "1991:9:14"
             },
-            "scope": 2661,
+            "scope": 2630,
             "src": "1937:120:14",
             "stateMutability": "view",
             "superFunction": null,
@@ -1988,7 +1988,7 @@
           },
           {
             "body": {
-              "id": 2649,
+              "id": 2618,
               "nodeType": "Block",
               "src": "2130:59:14",
               "statements": [
@@ -1998,14 +1998,14 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2646,
+                        "id": 2615,
                         "name": "legalEntityMappingInstance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2519,
+                        "referencedDeclaration": 2488,
                         "src": "2155:26:14",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                          "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                           "typeString": "contract LegalEntityMapping"
                         }
                       }
@@ -2013,11 +2013,11 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                          "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                           "typeString": "contract LegalEntityMapping"
                         }
                       ],
-                      "id": 2645,
+                      "id": 2614,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -2030,7 +2030,7 @@
                       },
                       "typeName": "address"
                     },
-                    "id": 2647,
+                    "id": 2616,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2044,36 +2044,36 @@
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 2644,
-                  "id": 2648,
+                  "functionReturnParameters": 2613,
+                  "id": 2617,
                   "nodeType": "Return",
                   "src": "2140:42:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2650,
+            "id": 2619,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getLegalEntityMappingAddr",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2641,
+              "id": 2610,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2097:2:14"
             },
             "returnParameters": {
-              "id": 2644,
+              "id": 2613,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2643,
+                  "id": 2612,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2650,
+                  "scope": 2619,
                   "src": "2121:7:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2082,7 +2082,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2642,
+                    "id": 2611,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "2121:7:14",
@@ -2098,7 +2098,7 @@
               ],
               "src": "2120:9:14"
             },
-            "scope": 2661,
+            "scope": 2630,
             "src": "2063:126:14",
             "stateMutability": "view",
             "superFunction": null,
@@ -2106,7 +2106,7 @@
           },
           {
             "body": {
-              "id": 2659,
+              "id": 2628,
               "nodeType": "Block",
               "src": "2257:54:14",
               "statements": [
@@ -2116,14 +2116,14 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2656,
+                        "id": 2625,
                         "name": "bndesRegistryInstance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2521,
+                        "referencedDeclaration": 2490,
                         "src": "2282:21:14",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                          "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                           "typeString": "contract BNDESRegistry"
                         }
                       }
@@ -2131,11 +2131,11 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                          "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                           "typeString": "contract BNDESRegistry"
                         }
                       ],
-                      "id": 2655,
+                      "id": 2624,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -2148,7 +2148,7 @@
                       },
                       "typeName": "address"
                     },
-                    "id": 2657,
+                    "id": 2626,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2162,36 +2162,36 @@
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 2654,
-                  "id": 2658,
+                  "functionReturnParameters": 2623,
+                  "id": 2627,
                   "nodeType": "Return",
                   "src": "2267:37:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2660,
+            "id": 2629,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getBNDESRegistryAddr",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2651,
+              "id": 2620,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2224:2:14"
             },
             "returnParameters": {
-              "id": 2654,
+              "id": 2623,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2653,
+                  "id": 2622,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2660,
+                  "scope": 2629,
                   "src": "2248:7:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2200,7 +2200,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2652,
+                    "id": 2621,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "2248:7:14",
@@ -2216,14 +2216,14 @@
               ],
               "src": "2247:9:14"
             },
-            "scope": 2661,
+            "scope": 2630,
             "src": "2195:116:14",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 2662,
+        "scope": 2631,
         "src": "292:2022:14"
       }
     ],
@@ -2233,14 +2233,14 @@
     "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appUpgraders/PreUpgrader.sol",
     "exportedSymbols": {
       "PreUpgrader": [
-        2661
+        2630
       ]
     },
-    "id": 2662,
+    "id": 2631,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2502,
+        "id": 2471,
         "literals": [
           "solidity",
           "^",
@@ -2253,9 +2253,9 @@
       {
         "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Upgrader.sol",
         "file": "../appChangeManagementUpgrade/Upgrader.sol",
-        "id": 2503,
+        "id": 2472,
         "nodeType": "ImportDirective",
-        "scope": 2662,
+        "scope": 2631,
         "sourceUnit": 1286,
         "src": "25:52:14",
         "symbolAliases": [],
@@ -2264,9 +2264,9 @@
       {
         "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/ChangeManagement.sol",
         "file": "../appChangeManagementUpgrade/ChangeManagement.sol",
-        "id": 2504,
+        "id": 2473,
         "nodeType": "ImportDirective",
-        "scope": 2662,
+        "scope": 2631,
         "sourceUnit": 686,
         "src": "78:60:14",
         "symbolAliases": [],
@@ -2275,9 +2275,9 @@
       {
         "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Resolver.sol",
         "file": "../appChangeManagementUpgrade/Resolver.sol",
-        "id": 2505,
+        "id": 2474,
         "nodeType": "ImportDirective",
-        "scope": 2662,
+        "scope": 2631,
         "sourceUnit": 875,
         "src": "139:52:14",
         "symbolAliases": [],
@@ -2286,9 +2286,9 @@
       {
         "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Storage.sol",
         "file": "../appChangeManagementUpgrade/Storage.sol",
-        "id": 2506,
+        "id": 2475,
         "nodeType": "ImportDirective",
-        "scope": 2662,
+        "scope": 2631,
         "sourceUnit": 1103,
         "src": "192:51:14",
         "symbolAliases": [],
@@ -2297,10 +2297,10 @@
       {
         "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appTestUpgrade/BNDESRegistry.sol",
         "file": "../appTestUpgrade/BNDESRegistry.sol",
-        "id": 2507,
+        "id": 2476,
         "nodeType": "ImportDirective",
-        "scope": 2662,
-        "sourceUnit": 2003,
+        "scope": 2631,
+        "sourceUnit": 1972,
         "src": "244:45:14",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2311,7 +2311,7 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 2508,
+              "id": 2477,
               "name": "Upgrader",
               "nodeType": "UserDefinedTypeName",
               "referencedDeclaration": 1285,
@@ -2321,7 +2321,7 @@
                 "typeString": "contract Upgrader"
               }
             },
-            "id": 2509,
+            "id": 2478,
             "nodeType": "InheritanceSpecifier",
             "src": "316:8:14"
           }
@@ -2332,9 +2332,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2661,
+        "id": 2630,
         "linearizedBaseContracts": [
-          2661,
+          2630,
           1285
         ],
         "name": "PreUpgrader",
@@ -2342,10 +2342,10 @@
         "nodes": [
           {
             "constant": false,
-            "id": 2511,
+            "id": 2480,
             "name": "changeManagementAddr",
             "nodeType": "VariableDeclaration",
-            "scope": 2661,
+            "scope": 2630,
             "src": "332:35:14",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2354,7 +2354,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 2510,
+              "id": 2479,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "332:7:14",
@@ -2369,10 +2369,10 @@
           },
           {
             "constant": false,
-            "id": 2513,
+            "id": 2482,
             "name": "changeManagementInstance",
             "nodeType": "VariableDeclaration",
-            "scope": 2661,
+            "scope": 2630,
             "src": "373:48:14",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2382,7 +2382,7 @@
             },
             "typeName": {
               "contractScope": null,
-              "id": 2512,
+              "id": 2481,
               "name": "ChangeManagement",
               "nodeType": "UserDefinedTypeName",
               "referencedDeclaration": 685,
@@ -2397,10 +2397,10 @@
           },
           {
             "constant": false,
-            "id": 2515,
+            "id": 2484,
             "name": "resolverInstance",
             "nodeType": "VariableDeclaration",
-            "scope": 2661,
+            "scope": 2630,
             "src": "427:32:14",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2410,7 +2410,7 @@
             },
             "typeName": {
               "contractScope": null,
-              "id": 2514,
+              "id": 2483,
               "name": "Resolver",
               "nodeType": "UserDefinedTypeName",
               "referencedDeclaration": 874,
@@ -2425,10 +2425,10 @@
           },
           {
             "constant": false,
-            "id": 2517,
+            "id": 2486,
             "name": "storageContractInstance",
             "nodeType": "VariableDeclaration",
-            "scope": 2661,
+            "scope": 2630,
             "src": "465:38:14",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2438,7 +2438,7 @@
             },
             "typeName": {
               "contractScope": null,
-              "id": 2516,
+              "id": 2485,
               "name": "Storage",
               "nodeType": "UserDefinedTypeName",
               "referencedDeclaration": 1102,
@@ -2453,26 +2453,26 @@
           },
           {
             "constant": false,
-            "id": 2519,
+            "id": 2488,
             "name": "legalEntityMappingInstance",
             "nodeType": "VariableDeclaration",
-            "scope": 2661,
+            "scope": 2630,
             "src": "509:52:14",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+              "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
               "typeString": "contract LegalEntityMapping"
             },
             "typeName": {
               "contractScope": null,
-              "id": 2518,
+              "id": 2487,
               "name": "LegalEntityMapping",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2499,
+              "referencedDeclaration": 2468,
               "src": "509:18:14",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                 "typeString": "contract LegalEntityMapping"
               }
             },
@@ -2481,26 +2481,26 @@
           },
           {
             "constant": false,
-            "id": 2521,
+            "id": 2490,
             "name": "bndesRegistryInstance",
             "nodeType": "VariableDeclaration",
-            "scope": 2661,
+            "scope": 2630,
             "src": "567:42:14",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+              "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
               "typeString": "contract BNDESRegistry"
             },
             "typeName": {
               "contractScope": null,
-              "id": 2520,
+              "id": 2489,
               "name": "BNDESRegistry",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2002,
+              "referencedDeclaration": 1971,
               "src": "567:13:14",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                 "typeString": "contract BNDESRegistry"
               }
             },
@@ -2509,25 +2509,25 @@
           },
           {
             "body": {
-              "id": 2568,
+              "id": 2537,
               "nodeType": "Block",
               "src": "793:412:14",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2536,
+                    "id": 2505,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2534,
+                      "id": 2503,
                       "name": "changeManagementAddr",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2511,
+                      "referencedDeclaration": 2480,
                       "src": "812:20:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -2538,11 +2538,11 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 2535,
+                      "id": 2504,
                       "name": "_changeManagementAddr",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2523,
+                      "referencedDeclaration": 2492,
                       "src": "835:21:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -2555,25 +2555,25 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 2537,
+                  "id": 2506,
                   "nodeType": "ExpressionStatement",
                   "src": "812:44:14"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2542,
+                    "id": 2511,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2538,
+                      "id": 2507,
                       "name": "changeManagementInstance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2513,
+                      "referencedDeclaration": 2482,
                       "src": "866:24:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_contract$_ChangeManagement_$685",
@@ -2587,11 +2587,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 2540,
+                          "id": 2509,
                           "name": "_changeManagementAddr",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2523,
+                          "referencedDeclaration": 2492,
                           "src": "910:21:14",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -2606,7 +2606,7 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 2539,
+                        "id": 2508,
                         "name": "ChangeManagement",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -2617,7 +2617,7 @@
                           "typeString": "type(contract ChangeManagement)"
                         }
                       },
-                      "id": 2541,
+                      "id": 2510,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2637,25 +2637,25 @@
                       "typeString": "contract ChangeManagement"
                     }
                   },
-                  "id": 2543,
+                  "id": 2512,
                   "nodeType": "ExpressionStatement",
                   "src": "866:66:14"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2548,
+                    "id": 2517,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2544,
+                      "id": 2513,
                       "name": "resolverInstance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2515,
+                      "referencedDeclaration": 2484,
                       "src": "942:16:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_contract$_Resolver_$874",
@@ -2669,11 +2669,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 2546,
+                          "id": 2515,
                           "name": "_resolverAddr",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2525,
+                          "referencedDeclaration": 2494,
                           "src": "970:13:14",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -2688,7 +2688,7 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 2545,
+                        "id": 2514,
                         "name": "Resolver",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -2699,7 +2699,7 @@
                           "typeString": "type(contract Resolver)"
                         }
                       },
-                      "id": 2547,
+                      "id": 2516,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2719,25 +2719,25 @@
                       "typeString": "contract Resolver"
                     }
                   },
-                  "id": 2549,
+                  "id": 2518,
                   "nodeType": "ExpressionStatement",
                   "src": "942:42:14"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2554,
+                    "id": 2523,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2550,
+                      "id": 2519,
                       "name": "storageContractInstance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2517,
+                      "referencedDeclaration": 2486,
                       "src": "994:23:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_contract$_Storage_$1102",
@@ -2751,11 +2751,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 2552,
+                          "id": 2521,
                           "name": "_storageContractAddr",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2527,
+                          "referencedDeclaration": 2496,
                           "src": "1028:20:14",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -2770,7 +2770,7 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 2551,
+                        "id": 2520,
                         "name": "Storage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -2781,7 +2781,7 @@
                           "typeString": "type(contract Storage)"
                         }
                       },
-                      "id": 2553,
+                      "id": 2522,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2801,28 +2801,28 @@
                       "typeString": "contract Storage"
                     }
                   },
-                  "id": 2555,
+                  "id": 2524,
                   "nodeType": "ExpressionStatement",
                   "src": "994:55:14"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2560,
+                    "id": 2529,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2556,
+                      "id": 2525,
                       "name": "legalEntityMappingInstance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2519,
+                      "referencedDeclaration": 2488,
                       "src": "1059:26:14",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                        "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                         "typeString": "contract LegalEntityMapping"
                       }
                     },
@@ -2833,11 +2833,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 2558,
+                          "id": 2527,
                           "name": "_legalEntityMappingAddr",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2529,
+                          "referencedDeclaration": 2498,
                           "src": "1107:23:14",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -2852,18 +2852,18 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 2557,
+                        "id": 2526,
                         "name": "LegalEntityMapping",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2499,
+                        "referencedDeclaration": 2468,
                         "src": "1088:18:14",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_LegalEntityMapping_$2499_$",
+                          "typeIdentifier": "t_type$_t_contract$_LegalEntityMapping_$2468_$",
                           "typeString": "type(contract LegalEntityMapping)"
                         }
                       },
-                      "id": 2559,
+                      "id": 2528,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2873,38 +2873,38 @@
                       "nodeType": "FunctionCall",
                       "src": "1088:43:14",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                        "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                         "typeString": "contract LegalEntityMapping"
                       }
                     },
                     "src": "1059:72:14",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                      "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                       "typeString": "contract LegalEntityMapping"
                     }
                   },
-                  "id": 2561,
+                  "id": 2530,
                   "nodeType": "ExpressionStatement",
                   "src": "1059:72:14"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2566,
+                    "id": 2535,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 2562,
+                      "id": 2531,
                       "name": "bndesRegistryInstance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2521,
+                      "referencedDeclaration": 2490,
                       "src": "1141:21:14",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                        "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                         "typeString": "contract BNDESRegistry"
                       }
                     },
@@ -2915,11 +2915,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 2564,
+                          "id": 2533,
                           "name": "_bndesRegistryAddr",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2531,
+                          "referencedDeclaration": 2500,
                           "src": "1179:18:14",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -2934,18 +2934,18 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 2563,
+                        "id": 2532,
                         "name": "BNDESRegistry",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2002,
+                        "referencedDeclaration": 1971,
                         "src": "1165:13:14",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_BNDESRegistry_$2002_$",
+                          "typeIdentifier": "t_type$_t_contract$_BNDESRegistry_$1971_$",
                           "typeString": "type(contract BNDESRegistry)"
                         }
                       },
-                      "id": 2565,
+                      "id": 2534,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2955,39 +2955,39 @@
                       "nodeType": "FunctionCall",
                       "src": "1165:33:14",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                        "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                         "typeString": "contract BNDESRegistry"
                       }
                     },
                     "src": "1141:57:14",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                      "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                       "typeString": "contract BNDESRegistry"
                     }
                   },
-                  "id": 2567,
+                  "id": 2536,
                   "nodeType": "ExpressionStatement",
                   "src": "1141:57:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2569,
+            "id": 2538,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2532,
+              "id": 2501,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2523,
+                  "id": 2492,
                   "name": "_changeManagementAddr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2569,
+                  "scope": 2538,
                   "src": "629:29:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2996,7 +2996,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2522,
+                    "id": 2491,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "629:7:14",
@@ -3011,10 +3011,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 2525,
+                  "id": 2494,
                   "name": "_resolverAddr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2569,
+                  "scope": 2538,
                   "src": "660:21:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3023,7 +3023,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2524,
+                    "id": 2493,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "660:7:14",
@@ -3038,10 +3038,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 2527,
+                  "id": 2496,
                   "name": "_storageContractAddr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2569,
+                  "scope": 2538,
                   "src": "683:28:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3050,7 +3050,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2526,
+                    "id": 2495,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "683:7:14",
@@ -3065,10 +3065,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 2529,
+                  "id": 2498,
                   "name": "_legalEntityMappingAddr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2569,
+                  "scope": 2538,
                   "src": "725:31:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3077,7 +3077,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2528,
+                    "id": 2497,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "725:7:14",
@@ -3092,10 +3092,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 2531,
+                  "id": 2500,
                   "name": "_bndesRegistryAddr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2569,
+                  "scope": 2538,
                   "src": "758:26:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3104,7 +3104,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2530,
+                    "id": 2499,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "758:7:14",
@@ -3121,12 +3121,12 @@
               "src": "628:157:14"
             },
             "returnParameters": {
-              "id": 2533,
+              "id": 2502,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "793:0:14"
             },
-            "scope": 2661,
+            "scope": 2630,
             "src": "617:588:14",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -3134,7 +3134,7 @@
           },
           {
             "body": {
-              "id": 2580,
+              "id": 2549,
               "nodeType": "Block",
               "src": "1244:145:14",
               "statements": [
@@ -3148,7 +3148,7 @@
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         },
-                        "id": 2575,
+                        "id": 2544,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3157,18 +3157,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 2572,
+                            "id": 2541,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 3458,
+                            "referencedDeclaration": 3428,
                             "src": "1262:3:14",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 2573,
+                          "id": 2542,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3186,11 +3186,11 @@
                         "operator": "==",
                         "rightExpression": {
                           "argumentTypes": null,
-                          "id": 2574,
+                          "id": 2543,
                           "name": "changeManagementAddr",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2511,
+                          "referencedDeclaration": 2480,
                           "src": "1274:20:14",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -3206,7 +3206,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "5072655570677261646572202d20546869732066756e6374696f6e2063616e206f6e6c7920626520657865637574656420627920746865204368616e67654d616e6167656d656e74",
-                        "id": 2576,
+                        "id": 2545,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -3233,21 +3233,21 @@
                           "typeString": "literal_string \"PreUpgrader - This function can only be executed by the ChangeManagement\""
                         }
                       ],
-                      "id": 2571,
+                      "id": 2540,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        3461,
-                        3462
+                        3431,
+                        3432
                       ],
-                      "referencedDeclaration": 3462,
+                      "referencedDeclaration": 3432,
                       "src": "1254:7:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 2577,
+                    "id": 2546,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3261,23 +3261,23 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2578,
+                  "id": 2547,
                   "nodeType": "ExpressionStatement",
                   "src": "1254:117:14"
                 },
                 {
-                  "id": 2579,
+                  "id": 2548,
                   "nodeType": "PlaceholderStatement",
                   "src": "1381:1:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2581,
+            "id": 2550,
             "name": "onlyChangeManagement",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 2570,
+              "id": 2539,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1241:2:14"
@@ -3287,7 +3287,7 @@
           },
           {
             "body": {
-              "id": 2611,
+              "id": 2580,
               "nodeType": "Block",
               "src": "1445:259:14",
               "statements": [
@@ -3300,14 +3300,14 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 2590,
+                            "id": 2559,
                             "name": "legalEntityMappingInstance",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2519,
+                            "referencedDeclaration": 2488,
                             "src": "1499:26:14",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                              "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                               "typeString": "contract LegalEntityMapping"
                             }
                           }
@@ -3315,11 +3315,11 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                              "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                               "typeString": "contract LegalEntityMapping"
                             }
                           ],
-                          "id": 2589,
+                          "id": 2558,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -3332,7 +3332,7 @@
                           },
                           "typeName": "address"
                         },
-                        "id": 2591,
+                        "id": 2560,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3356,18 +3356,18 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2586,
+                        "id": 2555,
                         "name": "storageContractInstance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2517,
+                        "referencedDeclaration": 2486,
                         "src": "1456:23:14",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Storage_$1102",
                           "typeString": "contract Storage"
                         }
                       },
-                      "id": 2588,
+                      "id": 2557,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3381,7 +3381,7 @@
                         "typeString": "function (address) external returns (bool)"
                       }
                     },
-                    "id": 2592,
+                    "id": 2561,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3395,7 +3395,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 2593,
+                  "id": 2562,
                   "nodeType": "ExpressionStatement",
                   "src": "1456:71:14"
                 },
@@ -3408,14 +3408,14 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 2598,
+                            "id": 2567,
                             "name": "bndesRegistryInstance",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2521,
+                            "referencedDeclaration": 2490,
                             "src": "1583:21:14",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                              "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                               "typeString": "contract BNDESRegistry"
                             }
                           }
@@ -3423,11 +3423,11 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                              "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                               "typeString": "contract BNDESRegistry"
                             }
                           ],
-                          "id": 2597,
+                          "id": 2566,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -3440,7 +3440,7 @@
                           },
                           "typeName": "address"
                         },
-                        "id": 2599,
+                        "id": 2568,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3464,18 +3464,18 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2594,
+                        "id": 2563,
                         "name": "legalEntityMappingInstance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2519,
+                        "referencedDeclaration": 2488,
                         "src": "1537:26:14",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                          "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                           "typeString": "contract LegalEntityMapping"
                         }
                       },
-                      "id": 2596,
+                      "id": 2565,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3489,7 +3489,7 @@
                         "typeString": "function (address) external returns (bool)"
                       }
                     },
-                    "id": 2600,
+                    "id": 2569,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3503,7 +3503,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 2601,
+                  "id": 2570,
                   "nodeType": "ExpressionStatement",
                   "src": "1537:69:14"
                 },
@@ -3514,7 +3514,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "424e4445535265676973747279",
-                        "id": 2605,
+                        "id": 2574,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -3534,14 +3534,14 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 2607,
+                            "id": 2576,
                             "name": "bndesRegistryInstance",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2521,
+                            "referencedDeclaration": 2490,
                             "src": "1673:21:14",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                              "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                               "typeString": "contract BNDESRegistry"
                             }
                           }
@@ -3549,11 +3549,11 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                              "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                               "typeString": "contract BNDESRegistry"
                             }
                           ],
-                          "id": 2606,
+                          "id": 2575,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -3566,7 +3566,7 @@
                           },
                           "typeName": "address"
                         },
-                        "id": 2608,
+                        "id": 2577,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3594,18 +3594,18 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2602,
+                        "id": 2571,
                         "name": "resolverInstance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2515,
+                        "referencedDeclaration": 2484,
                         "src": "1616:16:14",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Resolver_$874",
                           "typeString": "contract Resolver"
                         }
                       },
-                      "id": 2604,
+                      "id": 2573,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3619,7 +3619,7 @@
                         "typeString": "function (string memory,address) external returns (bool)"
                       }
                     },
-                    "id": 2609,
+                    "id": 2578,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3633,27 +3633,27 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 2610,
+                  "id": 2579,
                   "nodeType": "ExpressionStatement",
                   "src": "1616:80:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2612,
+            "id": 2581,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
-                "id": 2584,
+                "id": 2553,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2583,
+                  "id": 2552,
                   "name": "onlyChangeManagement",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2581,
+                  "referencedDeclaration": 2550,
                   "src": "1424:20:14",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -3667,18 +3667,18 @@
             "name": "upgrade",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2582,
+              "id": 2551,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1412:2:14"
             },
             "returnParameters": {
-              "id": 2585,
+              "id": 2554,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1445:0:14"
             },
-            "scope": 2661,
+            "scope": 2630,
             "src": "1395:309:14",
             "stateMutability": "nonpayable",
             "superFunction": 1284,
@@ -3686,54 +3686,54 @@
           },
           {
             "body": {
-              "id": 2619,
+              "id": 2588,
               "nodeType": "Block",
               "src": "1775:44:14",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2617,
+                    "id": 2586,
                     "name": "changeManagementAddr",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 2511,
+                    "referencedDeclaration": 2480,
                     "src": "1792:20:14",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 2616,
-                  "id": 2618,
+                  "functionReturnParameters": 2585,
+                  "id": 2587,
                   "nodeType": "Return",
                   "src": "1785:27:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2620,
+            "id": 2589,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getChangeManagementAddr",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2613,
+              "id": 2582,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1742:2:14"
             },
             "returnParameters": {
-              "id": 2616,
+              "id": 2585,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2615,
+                  "id": 2584,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2620,
+                  "scope": 2589,
                   "src": "1766:7:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3742,7 +3742,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2614,
+                    "id": 2583,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1766:7:14",
@@ -3758,7 +3758,7 @@
               ],
               "src": "1765:9:14"
             },
-            "scope": 2661,
+            "scope": 2630,
             "src": "1710:109:14",
             "stateMutability": "view",
             "superFunction": null,
@@ -3766,7 +3766,7 @@
           },
           {
             "body": {
-              "id": 2629,
+              "id": 2598,
               "nodeType": "Block",
               "src": "1882:49:14",
               "statements": [
@@ -3776,11 +3776,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2626,
+                        "id": 2595,
                         "name": "resolverInstance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2515,
+                        "referencedDeclaration": 2484,
                         "src": "1907:16:14",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Resolver_$874",
@@ -3795,7 +3795,7 @@
                           "typeString": "contract Resolver"
                         }
                       ],
-                      "id": 2625,
+                      "id": 2594,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -3808,7 +3808,7 @@
                       },
                       "typeName": "address"
                     },
-                    "id": 2627,
+                    "id": 2596,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3822,36 +3822,36 @@
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 2624,
-                  "id": 2628,
+                  "functionReturnParameters": 2593,
+                  "id": 2597,
                   "nodeType": "Return",
                   "src": "1892:32:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2630,
+            "id": 2599,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getResolverAddr",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2621,
+              "id": 2590,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1849:2:14"
             },
             "returnParameters": {
-              "id": 2624,
+              "id": 2593,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2623,
+                  "id": 2592,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2630,
+                  "scope": 2599,
                   "src": "1873:7:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3860,7 +3860,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2622,
+                    "id": 2591,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1873:7:14",
@@ -3876,7 +3876,7 @@
               ],
               "src": "1872:9:14"
             },
-            "scope": 2661,
+            "scope": 2630,
             "src": "1825:106:14",
             "stateMutability": "view",
             "superFunction": null,
@@ -3884,7 +3884,7 @@
           },
           {
             "body": {
-              "id": 2639,
+              "id": 2608,
               "nodeType": "Block",
               "src": "2001:56:14",
               "statements": [
@@ -3894,11 +3894,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2636,
+                        "id": 2605,
                         "name": "storageContractInstance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2517,
+                        "referencedDeclaration": 2486,
                         "src": "2026:23:14",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Storage_$1102",
@@ -3913,7 +3913,7 @@
                           "typeString": "contract Storage"
                         }
                       ],
-                      "id": 2635,
+                      "id": 2604,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -3926,7 +3926,7 @@
                       },
                       "typeName": "address"
                     },
-                    "id": 2637,
+                    "id": 2606,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3940,36 +3940,36 @@
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 2634,
-                  "id": 2638,
+                  "functionReturnParameters": 2603,
+                  "id": 2607,
                   "nodeType": "Return",
                   "src": "2011:39:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2640,
+            "id": 2609,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getStorageContractAddr",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2631,
+              "id": 2600,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1968:2:14"
             },
             "returnParameters": {
-              "id": 2634,
+              "id": 2603,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2633,
+                  "id": 2602,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2640,
+                  "scope": 2609,
                   "src": "1992:7:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3978,7 +3978,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2632,
+                    "id": 2601,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1992:7:14",
@@ -3994,7 +3994,7 @@
               ],
               "src": "1991:9:14"
             },
-            "scope": 2661,
+            "scope": 2630,
             "src": "1937:120:14",
             "stateMutability": "view",
             "superFunction": null,
@@ -4002,7 +4002,7 @@
           },
           {
             "body": {
-              "id": 2649,
+              "id": 2618,
               "nodeType": "Block",
               "src": "2130:59:14",
               "statements": [
@@ -4012,14 +4012,14 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2646,
+                        "id": 2615,
                         "name": "legalEntityMappingInstance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2519,
+                        "referencedDeclaration": 2488,
                         "src": "2155:26:14",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                          "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                           "typeString": "contract LegalEntityMapping"
                         }
                       }
@@ -4027,11 +4027,11 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_LegalEntityMapping_$2499",
+                          "typeIdentifier": "t_contract$_LegalEntityMapping_$2468",
                           "typeString": "contract LegalEntityMapping"
                         }
                       ],
-                      "id": 2645,
+                      "id": 2614,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -4044,7 +4044,7 @@
                       },
                       "typeName": "address"
                     },
-                    "id": 2647,
+                    "id": 2616,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -4058,36 +4058,36 @@
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 2644,
-                  "id": 2648,
+                  "functionReturnParameters": 2613,
+                  "id": 2617,
                   "nodeType": "Return",
                   "src": "2140:42:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2650,
+            "id": 2619,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getLegalEntityMappingAddr",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2641,
+              "id": 2610,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2097:2:14"
             },
             "returnParameters": {
-              "id": 2644,
+              "id": 2613,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2643,
+                  "id": 2612,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2650,
+                  "scope": 2619,
                   "src": "2121:7:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4096,7 +4096,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2642,
+                    "id": 2611,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "2121:7:14",
@@ -4112,7 +4112,7 @@
               ],
               "src": "2120:9:14"
             },
-            "scope": 2661,
+            "scope": 2630,
             "src": "2063:126:14",
             "stateMutability": "view",
             "superFunction": null,
@@ -4120,7 +4120,7 @@
           },
           {
             "body": {
-              "id": 2659,
+              "id": 2628,
               "nodeType": "Block",
               "src": "2257:54:14",
               "statements": [
@@ -4130,14 +4130,14 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2656,
+                        "id": 2625,
                         "name": "bndesRegistryInstance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2521,
+                        "referencedDeclaration": 2490,
                         "src": "2282:21:14",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                          "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                           "typeString": "contract BNDESRegistry"
                         }
                       }
@@ -4145,11 +4145,11 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_BNDESRegistry_$2002",
+                          "typeIdentifier": "t_contract$_BNDESRegistry_$1971",
                           "typeString": "contract BNDESRegistry"
                         }
                       ],
-                      "id": 2655,
+                      "id": 2624,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -4162,7 +4162,7 @@
                       },
                       "typeName": "address"
                     },
-                    "id": 2657,
+                    "id": 2626,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -4176,36 +4176,36 @@
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 2654,
-                  "id": 2658,
+                  "functionReturnParameters": 2623,
+                  "id": 2627,
                   "nodeType": "Return",
                   "src": "2267:37:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 2660,
+            "id": 2629,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getBNDESRegistryAddr",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2651,
+              "id": 2620,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2224:2:14"
             },
             "returnParameters": {
-              "id": 2654,
+              "id": 2623,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2653,
+                  "id": 2622,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2660,
+                  "scope": 2629,
                   "src": "2248:7:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4214,7 +4214,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2652,
+                    "id": 2621,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "2248:7:14",
@@ -4230,14 +4230,14 @@
               ],
               "src": "2247:9:14"
             },
-            "scope": 2661,
+            "scope": 2630,
             "src": "2195:116:14",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 2662,
+        "scope": 2631,
         "src": "292:2022:14"
       }
     ],
@@ -4249,7 +4249,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-04-17T19:44:27.975Z",
+  "updatedAt": "2020-04-18T01:38:30.630Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

@@ -64,8 +64,8 @@ contract ChangeManagement is Pausable, Ownable() {
 
             ChangeDataStructure memory cds;
             
-            //TODO: funciona?
             if (decisionContractAddr != address(0)) {
+            //TODO: FINALIZAR GOVERNANCA
                 //GovernanceDecision governanceDecision = new GovernanceDecision(governanceMembersId, percentageDecision, address(idRegistry), changeNumber);
                 cds = ChangeDataStructure(hashChangeMotivation, upgraderContractsAddr, 0,
                         decisionContractAddr, ChangeState.WAITING);
@@ -73,6 +73,7 @@ contract ChangeManagement is Pausable, Ownable() {
 
             }
             else { //The owner decided by itself
+
                 cds = ChangeDataStructure(hashChangeMotivation, upgraderContractsAddr, 0,
                                     address(0), ChangeState.APPROVED);
                 emit NewChangeCreated(changeNumber, hashChangeMotivation, upgraderContractsAddr, address(0));

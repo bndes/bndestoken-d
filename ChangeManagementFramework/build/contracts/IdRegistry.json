@@ -34,14 +34,14 @@
     "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appCommonUpgrade/IdRegistry.sol",
     "exportedSymbols": {
       "IdRegistry": [
-        1415
+        1389
       ]
     },
-    "id": 1416,
+    "id": 1390,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1407,
+        "id": 1381,
         "literals": [
           "solidity",
           "^",
@@ -57,9 +57,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 1415,
+        "id": 1389,
         "linearizedBaseContracts": [
-          1415
+          1389
         ],
         "name": "IdRegistry",
         "nodeType": "ContractDefinition",
@@ -67,22 +67,22 @@
           {
             "body": null,
             "documentation": null,
-            "id": 1414,
+            "id": 1388,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getId",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1410,
+              "id": 1384,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1409,
+                  "id": 1383,
                   "name": "addr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1414,
+                  "scope": 1388,
                   "src": "68:12:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -91,7 +91,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1408,
+                    "id": 1382,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "68:7:8",
@@ -108,15 +108,15 @@
               "src": "67:14:8"
             },
             "returnParameters": {
-              "id": 1413,
+              "id": 1387,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1412,
+                  "id": 1386,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1414,
+                  "scope": 1388,
                   "src": "105:4:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -125,7 +125,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1411,
+                    "id": 1385,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "105:4:8",
@@ -140,14 +140,14 @@
               ],
               "src": "104:6:8"
             },
-            "scope": 1415,
+            "scope": 1389,
             "src": "53:58:8",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 1416,
+        "scope": 1390,
         "src": "25:89:8"
       }
     ],
@@ -157,14 +157,14 @@
     "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appCommonUpgrade/IdRegistry.sol",
     "exportedSymbols": {
       "IdRegistry": [
-        1415
+        1389
       ]
     },
-    "id": 1416,
+    "id": 1390,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1407,
+        "id": 1381,
         "literals": [
           "solidity",
           "^",
@@ -180,9 +180,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 1415,
+        "id": 1389,
         "linearizedBaseContracts": [
-          1415
+          1389
         ],
         "name": "IdRegistry",
         "nodeType": "ContractDefinition",
@@ -190,22 +190,22 @@
           {
             "body": null,
             "documentation": null,
-            "id": 1414,
+            "id": 1388,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getId",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1410,
+              "id": 1384,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1409,
+                  "id": 1383,
                   "name": "addr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1414,
+                  "scope": 1388,
                   "src": "68:12:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -214,7 +214,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1408,
+                    "id": 1382,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "68:7:8",
@@ -231,15 +231,15 @@
               "src": "67:14:8"
             },
             "returnParameters": {
-              "id": 1413,
+              "id": 1387,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1412,
+                  "id": 1386,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1414,
+                  "scope": 1388,
                   "src": "105:4:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -248,7 +248,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1411,
+                    "id": 1385,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "105:4:8",
@@ -263,14 +263,14 @@
               ],
               "src": "104:6:8"
             },
-            "scope": 1415,
+            "scope": 1389,
             "src": "53:58:8",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 1416,
+        "scope": 1390,
         "src": "25:89:8"
       }
     ],
@@ -282,7 +282,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-04-17T19:44:12.118Z",
+  "updatedAt": "2020-04-18T00:57:21.580Z",
   "devdoc": {
     "methods": {}
   },

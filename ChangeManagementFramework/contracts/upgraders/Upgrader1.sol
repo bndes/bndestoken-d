@@ -14,7 +14,6 @@ contract Upgrader1 is Upgrader {
 
     LastUpgrader lastUpgrader;
     
-    address public changeManagementAddr;
     ChangeManagement public changeManagementInstance;
     Resolver public resolverInstance;
     Storage public storageContractInstance;
@@ -32,7 +31,7 @@ contract Upgrader1 is Upgrader {
     }
 
     modifier onlyChangeManagement() {
-        require(msg.sender==changeManagementAddr, "Upgrader 1 - This function can only be executed by the ChangeManagement");
+        require(msg.sender==getChangeManagementAddr(), "Upgrader 1 - This function can only be executed by the ChangeManagement");
         _;
     }
 
@@ -50,7 +49,7 @@ contract Upgrader1 is Upgrader {
 
 
     function getChangeManagementAddr() public view returns (address) {
-        return changeManagementAddr;
+        return address(changeManagementInstance);
     }
 
     function getResolverAddr() public view returns (address) {

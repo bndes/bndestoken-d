@@ -22,14 +22,14 @@
     "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Upgrader.sol",
     "exportedSymbols": {
       "Upgrader": [
-        1285
+        1259
       ]
     },
-    "id": 1286,
+    "id": 1260,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1281,
+        "id": 1255,
         "literals": [
           "solidity",
           "^",
@@ -45,9 +45,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 1285,
+        "id": 1259,
         "linearizedBaseContracts": [
-          1285
+          1259
         ],
         "name": "Upgrader",
         "nodeType": "ContractDefinition",
@@ -55,32 +55,32 @@
           {
             "body": null,
             "documentation": null,
-            "id": 1284,
+            "id": 1258,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "upgrade",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1282,
+              "id": 1256,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "68:2:6"
             },
             "returnParameters": {
-              "id": 1283,
+              "id": 1257,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "79:0:6"
             },
-            "scope": 1285,
+            "scope": 1259,
             "src": "51:29:6",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 1286,
+        "scope": 1260,
         "src": "26:58:6"
       }
     ],
@@ -90,14 +90,14 @@
     "absolutePath": "/Users/suzana.moreno/workspace/bndestoken-d/ChangeManagementFramework/contracts/appChangeManagementUpgrade/Upgrader.sol",
     "exportedSymbols": {
       "Upgrader": [
-        1285
+        1259
       ]
     },
-    "id": 1286,
+    "id": 1260,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1281,
+        "id": 1255,
         "literals": [
           "solidity",
           "^",
@@ -113,9 +113,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 1285,
+        "id": 1259,
         "linearizedBaseContracts": [
-          1285
+          1259
         ],
         "name": "Upgrader",
         "nodeType": "ContractDefinition",
@@ -123,32 +123,32 @@
           {
             "body": null,
             "documentation": null,
-            "id": 1284,
+            "id": 1258,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "upgrade",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1282,
+              "id": 1256,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "68:2:6"
             },
             "returnParameters": {
-              "id": 1283,
+              "id": 1257,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "79:0:6"
             },
-            "scope": 1285,
+            "scope": 1259,
             "src": "51:29:6",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 1286,
+        "scope": 1260,
         "src": "26:58:6"
       }
     ],
@@ -160,7 +160,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-04-17T19:44:12.117Z",
+  "updatedAt": "2020-04-18T00:57:21.578Z",
   "devdoc": {
     "methods": {}
   },

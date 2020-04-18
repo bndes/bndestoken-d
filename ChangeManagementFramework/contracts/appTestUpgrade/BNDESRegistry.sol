@@ -25,7 +25,16 @@ contract BNDESRegistry is Updatable {
     function registryLegalEntity(uint64 id) public {
         legalEntityMapping.setId(msg.sender, id);
     }
+    function getId(address addr) external view returns (uint) {
+        return legalEntityMapping.getId(addr);
+    }
 
+    function kill() external onlyAllowedUpgrader {
+        selfdestruct(address(0));
+    }
+    
+    
+/*
 ////TESTE************************
     function registryLegalEntity2TESTE() public {
         legalEntityMapping.setId(address(0xff1465539F3F22Df5bc197312AB28B04E3815624), 123456);
@@ -36,15 +45,6 @@ contract BNDESRegistry is Updatable {
     function registryLegalEntity2TESTE4() public {
         legalEntityMapping.setTESTE();
     }
-    function getId(address addr) external view returns (uint) {
-        return legalEntityMapping.getId(addr);
-    }
-
-
-    function kill() external onlyAllowedUpgrader {
-        selfdestruct(address(0));
-    }
-
 /*
 //TEST
     function isAvailable(address addr) public view returns (bool) {
